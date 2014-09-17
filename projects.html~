@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Projects - Max R. Chung</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="theme.css">
+  </head>
+
+  <body>
+    <table>
+      <tr>
+	<td><a href="home.html"><button>Home</button></a></td>
+	<td><a href="blog.html"><button>Blog</button></a></td>
+	<td><a href="projects.html"><button class="selected">Projects</button></a></td>
+	<td><a href="about.html"><button>About</button></a></td>
+      </tr>
+    </table>
+
+    <div class="line"></div>
+    <div class="line"></div>
+    <div id="footer"></div>
+  </body>
+</html>
