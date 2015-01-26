@@ -46,7 +46,7 @@
 
       <p>In the future I'll learn more indepth JavaScript and jQuery to possibly add a bit of more flair to the site, and possibly some PHP to give some more interactability to the blog. As a side note, I also repicked up Emacs to write this, of which I used previously for a class but never touched again. It feels really nice typing again so smoothly like this. I feel like I definitely type a lot faster, and speed will only improve even further when I get more natural with Emacs commands. Why Emacs over Vim? I think for obvious reasons.</p>
 
-      <img src="../../images/emacs.png"/>
+      <img src="emacs.png"/>
       <p class="caption">Emacs is god</p>
 
       <p>Design-wise, as you can see this is a really simple and minimalistic. White can perhaps be a bit too harsh on the eyes, but it, paired with black, just seems to me the most natural combination for text. I prefer sans serif over serif, even for reading text, mostly because I can just use one font for all labels, titles, and text to save a bit of hassle. I have a plain outline theme for separation and selection purposes.</p>
