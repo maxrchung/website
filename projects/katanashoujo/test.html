@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Katana Shoujo - Max R. Chung</title>
+    <link rel="icon" href="../../../resources/favicon.ico">
+    <link rel="shortcut icon" href="../../../resources/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../../../resources/theme.css">
+  </head>
+
+  <body>
+    <div class="buttons">
+      <table>
+	<tr>
+	  <td><a href="../../../home" class="button">Home</a></td>
+	  <td><a href="../../../blog" class="button">Blog</a></td>
+	  <td><a href="../../../projects" class="button selected">Projects</a></td>
+	  <td><a href="../../../about" class="button">About</a></td>
+	</tr>
+      </table>
+    </div>
+    
+    <hr>
+    
+    <div class="mid">
+      <div class="game">
+	<h2><em>Katana Shoujo</em></h2>
+	<script src="https://www.java.com/js/deployJava.js"></script>
+	<script> 
+          var attributes = {code:'shit', width:1280, height:720} ; 
+          var parameters = {jnlp_href: 'test.jnlp'} ; 
+          deployJava.runApplet(attributes, parameters, '1.7'); 
+	</script>
+      </div>
+
+      <h2>Troubleshooting</h2>
+      <p>Having trouble running the game? Here are a few things you can do to try and fix the issue. Make sure you have Java 8 installed and running. Uninstall previous versions of Java to avoid any conflicts and get version 8 <a href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">here</a> for your operating system.</p>
+
+      <p>If you are still having problems, open up the Java Control Panel, go to the Security tab, and set the security level to high or lower. For insurance, also add <em>http://maxrchung.com</em> into the Exception Site List.</p>
+
+      <img src="security.png" />
+      <p class="caption">Java Control Panel, Security tab</p>
+      <img src="siteException.png" />
+      <p class="caption">Adding <em>http://maxrchung.com</em> to the exception list</p>
+    </div>
+
+    <hr>
+
+    <div id="footer"></div>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Left to Die - Max R. Chung</title>
+    <link rel="icon" href="../../resources/favicon.ico">
+    <link rel="shortcut icon" href="../../resources/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../../resources/theme.css">
+  </head>
+
+  <body>
+    <div class="buttons">
+      <table>
+	<tr>
+	  <td><a href="../../home" class="button">Home</a></td>
+	  <td><a href="../../blog" class="button">Blog</a></td>
+	  <td><a href="../../projects" class="button selected">Projects</a></td>
+	  <td><a href="../../about" class="button">About</a></td>
+	</tr>
+      </table>
+    </div>
+    
+    <hr>
+    
+    <div class="mid">
+      <h2><em>Left to Die</em></h2>
+      <p>Last edited 23 Jan. 2015</p>
+
+      <img src="banner.png" />
+
+      <h2>Info</h2>
+      <p>Left to Die is a platformer inspired by traditional Mario and by some of its quirky spin-offs, namely <a href="http://en.wikipedia.org/wiki/Shobon_Action">Syobon Action</a> (AKA Cat Mario), <a href="http://en.wikipedia.org/wiki/I_Wanna_Be_the_Guy">I Wanna Be the Guy</a>, and <a href="http://en.wikipedia.org/wiki/VVVVVV">VVVVVV</a>. It was made as part of <a href="http://vgdc-uci.com/">VGDC UCI</a>'s 2015 winter quarter weekend game jam. The theme was 'Choose a Side', and we decided to put our own spin on the platformer genre, where facing left inverses all the blocks the character interacts with.</p>
+
+      <ul>
+	<li>Made by: Max Chung, Kinsey Lynaugh, Hector Martinez, Andrew Chau</li>
+	<li>Download: <a href="LeftToDie.zip" download>LeftToDie.zip</a> (7.1 MB)</li>
+	<li>Repository: <a href="https://github.com/shrackner/lefttodie">lefttodie</a></li>
+      </ul>
+
+      <h2>Background</h2>
+      <p>To be written at a later date!</p>
+
+    </div>
+
+    <hr>
+
+    <div id="footer"></div>
+  </body>
+</html>

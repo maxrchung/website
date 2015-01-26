@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tatami Galaxies - Max R. Chung</title>
+    <link rel="icon" href="../../resources/favicon.ico">
+    <link rel="shortcut icon" href="../../resources/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../../resources/theme.css">
+  </head>
+
+  <body>
+    <div class="buttons">
+      <table>
+	<tr>
+	  <td><a href="../../home" class="button">Home</a></td>
+	  <td><a href="../../blog" class="button">Blog</a></td>
+	  <td><a href="../../projects" class="button selected">Projects</a></td>
+	  <td><a href="../../about" class="button">About</a></td>
+	</tr>
+      </table>
+    </div>
+
+    <hr>
+    
+    <div class="mid">
+      <h2><em>Tatami Galaxies</em></h2>
+      <p>Last edited 22 Oct. 2014</p>
+
+      <img src="title.png" class="widthConstrain noBorder"/>
+
+      <h2>Info</h2>
+      <p><em>Tatami Galaxies</em> is an exploration game where one to two players explore procedurally generated rooms, trying to reach the end of each level and the end of the game. It is based on the anime <a href="http://en.wikipedia.org/wiki/The_Tatami_Galaxy">The Tatami Galaxy</a>, specifically the <a href="https://www.youtube.com/watch?v=ewICfFjc4CI">ED theme</a> of the show. The game is currently available for Windows only.</p>
+
+      <ul>
+	<li>Made by: Max Chung, Handerson Lee, and Masana Pawlan, with special thanks to Grant Walker</li>
+	<li>Download: <a href="TatamiGalaxies.zip" download>TatamiGalaxies.zip</a> (51.9 MB)</li>
+	<li>Repository: <a href="https://bitbucket.org/Gwalks/tatami-doors/">Tatami Doors</a>
+      </ul>
+
+      <h2>Update: 22 Oct. 2014</h2>
+      <p>Due to the fact that not a single person has officially beaten the game since the game's release and seen the epic ending we made, I decided to tone down the level difficulty so that it should be easier now. All level sizes have been halved. The highest room cap should now be roughly ~500 rather than the ~1000 of before.</p>
+
+      <p>After some further feedback from my team, we've decided to do some additional changes. To avoid the first two levels just being 2 room, we now use an alternate level generation formula, something like using the golden ratio (1.618^CurrentLevel)*5. The highest room cap is now roughly 600, and the first level has a trap room. Furthermore, to reduce lag in loading assets dynamically, we've now chosen to preload all the assets at initialization.</p>
+
+      <h2>Background</h2>
+      <p><em>Tatami Galaxies</em> started as a 36 hour hackathon project at <a href="http://www.hackuci.com/">HackUCI</a>. Three other <a href="http://vgdc-uci.com/">VGDC</a> members Grant, Handerson, Masana, and I formed a pickup group. We found out by chance that we just happened to all be going and that we all needed a group. None of us preplanned anything for the event, and we came in blind, which, upon reflection was a pretty horrible idea.</p>
+
+      <p>Before I even get to the game, I have to tell you about my, or I guess really our, poor first hackathon. Now, we've done our plenty share of game jams, not all together, but we've had our number of game jams behind us from our time in the VGDC. We came utterly unprepared to a hackathon, however. I mean, the food and service was great. Nobody'll complain about 24/7 free food and drink whenever you want it. What we didn't expect was that we would literally be trapped in some facility for the entire 36 hours, and we wouldn't easily be able to go out to places or go home. Staying basically locked into an area for two days was a pretty draining experience.</p>
+
+      <p>We came unprepared sleeping-wise, and that definitely hurt us. Don't believe in the sleepless lies, where people tell you to just suck it up and work tirelessly through the entire two or three days. That absolutely does not work. I saw, with my very own eyes, Handerson slowly decay into a zombie in front of me. He would kind of look at his laptop screen for a couple minutes before closing his eyes and then look back then close then repeat. Sleep, sleep, sleep I cannot recommend enough. It helps tremendously to refocus your concentration and refresh your energy.</p>
+
+      <p>I don't think we're all to blame, although we definitely were pretty stupidly unprepared. The sleeping areas provided were pretty uncomfortable if you didn't bring extra sleeping things. Me and just a pillow weren't enough to give me a comfortable nap. Every time I woke up from a 3 hour doze off, I had a horrible dry throat. Likewise, my team didn't bring much either and were in a similarly bad situation. Eventually we stacked eight chairs together near our working quarters to form a makeshift bed and took turns laying down on top. This little invention was inspired by the great George Wang because said George Wang would often do this in our club room.</p>
+
+      <img src="georgeWang.png" />
+      <p class="caption">My mockup of the George Wang inspired bed</p>
+
+      <p>One would think that a typical game jam would share many similarities with a hackathon. That's certainly true, but we took for granted how in game jams one can freely leave and come back to work as he/she feel like. Here, we didn't realize that we wouldn't have a chance to go home. Another huge difference between the two, and one that probably caused the most difficulty for us, was the lack of restrictions for this hackathon. Typically in a game jam, we would have some theme or direction to guide us, but for this hackathon, anything was pretty much fair game.</p>
+
+      <p>There were some aspects we could easily narrow down. We knew that we wanted to make a game, that much was clear and natural for us since we were representing the Video Game Development Club. It would have been cool to work on some of the selective prizes that were offered, but for the sake of uniformity and simplicity, we chose not to and just stick to what we know. We decided to use C# and MonoGame/XNA, seeing how we were all pretty familiar with C-type languages and wanted to try out MonoGame.</p>
+
+      <p>But then the real stumbling block appeared, which was: "Okay, so what's our game gonna be about?" I remember very finely that we got on the shuttle at around 5PM, and it wasn't until 7 hours later until midnight did we actually have an idea that we liked. We brainstormed a lot of pretty whacky ideas, but none of them really jumped out at us, or was something we all really felt pumped to do. I was actually pretty proud of some of my suggestions, and may look into possibly furthering one of them at a future time.</p>
+
+      <p>Among my best ideas, I had in mind a parody erotica game, a play on those really stupid trivia-"dress down" games. The game would start off answering random questions to strip a girl in front of you, but then answering later questions would lead to unrelated effects. "What is the mass of the sun? Great! You answered correctly! Let's chop off her arm." so on, so forth. As it would seem pretty art intensive and somewhat risque (probably mostly the latter), my team decided not to do it.</p>
+
+      <p>My second best idea was another parody idea, except this time on RPGs. It's a rogue-like game where you level up and have to kill enemies in some form or other. I haven't really thought of the story aspect that much, but game mechanics-wise, the main pull of the game, is that there will be an excessively ridiculously large number of meters, windows, and buttons that one has to manage in order to improve his or her character's stats. Upon every level up, players have to spend a huge number of points into various stats to improve the character. Although I think starting off as a funny parody game, I really think this has potential to be a more serious skill-based game, with emphasis on micromanagement. I really thought this had some potential for a game jam, but the rest of my team thought it was pretty stupid, so yeah, we didn't do this.</p>
+
+      <p>Our futile attempt to find a game got so bad to the point that we started using a <a href="http://orteil.dashnet.org/gamegen">random game idea generator</a> to try and come up with a concept. Horrible idea, although very funny. We joke that if we didn't end up going with <em>Tatami Galaxies</em>, we'd go with our "second best idea," which came from the generator: "A god game where you sold pregnancies in order to rule the world." That had me crying hysterically for five minutes until we settled back into our failing routine of finding a game idea. And by crying hysterically, I mean about 80% truth to that. I'm almost 100% sure all of us lost our mind at some point during the hackathon. Due to a combination of lack of sleep, pressure to keep on working, and stress of thinking, let's just say we weren't in a perfectly good state. </p>
+
+      <img src="gameGenerator.png"/>
+      <p class="caption">Seriously, pretty good for laughs</p>
+
+      <p>And then finally, roughly around midnight, like a gift from the heavens and completely out of the blue, Masana the god showed us the ending theme of <em>The Tatami Galaxy</em>. By this point, we were really pressured to start beginning, and seeing how this was a pretty good idea, we decided to just run with it and see what we could do with it. He showed us this video:</p>
+
+      <iframe width="650" height="366" src="//www.youtube.com/embed/-IcFDwygw-o?rel=0" frameborder="0" allowfullscreen></iframe>
+
+      <p>What was different with this over the other ideas brought up was that were presented with a really impactful visual style that immediately caught our attention. Furthermore, making a game based off of this seemed very promising and appropriate for a game jam/hackathon setting, as we had a lot of inspiration and story to already pull from. And for us, already tired of intensely thinking for a quarter of a day, having some place to draw ideas from was going to be a big aid to us. What was really funny about this idea actually, was that I was the only one out of the four that actually saw the original anime, which by the way, is extremely good. I highly recommend it.</p>
+
+      <p>At the time, I don't think we were completely settled with doing <em>Tatami</em>, but it was good enough, well good enough to get us started. We decided this. We'll try and closely mimic the visual style of the ending as much as possible, that was the main draw of the animation after all. We'll have levels crafted out of patterned tiles to keep the same sense of growing random rooms. Then we'll try and add some game-like elements to it. How do we do that? We introduce in a character to explore these different rooms. Okay, that's cool, but why would someone want to explore all these rooms? Wouldn't it just get boring exploring all these randomized level? You're right, let's put an end to each level that the player will have to reach.</p>
+
+      <p>It still seems a bit boring though. All you're essentially doing is running through a maze trying to get to the end. We wanted to add something to give more suspense to the game, so we decided to put in traps. The first thought after this, however, was that it would be too punishing, since each trap would instant kill and force the player to restart the level. Our solution was to open up the game to local multiplayer. Two players would now try and navigate each level, and each could revive a dead player that hit a trap. It's game over only if both hit traps and die.</p>
+
+      <p>Recently, someone questioned me why we had two characters instead of one, and I gave some more thought about the concept. Playing two characters actually adds a lot of strategy to the game, not inherent with just one. There's the aspect just mentioned, where you aren't punished too severely for accidentally hitting a trap. Strategically, however, you open up two very interesting options: of either exploring separately to try and cover more ground, or stick together to try and keep each other safe. In addition, there is a bit of leeway playing single player, as you essentially play an extra life.</p>
+
+      <p>We decided to use an 8-bit art style for our characters because they were going to be very small, each tile is just 32x32. And also, because the mechanics were so simple (just moving around) we opted for a UI-less style, putting literally nothing except for the game on the screen. We tried to follow the room style of the animation as closely as possible, copying the design of the black borders and white doors as similarly as possible.</p>
+
+      <p>This is more or less the game we decided on and ended up with. Even now, much after the game jam, the game still retains much of these qualities. At the hackathon, however, actually putting everything we wanted into code was definitely challenging. As I said, we finalized the idea roughly around midnight, so we got started late into the night, already exhausted from thinking about seemingly pointless things. None of us were looking to sleep soon either since we knew we were starting off on the backfoot, and we needed to put in a good number of hours of work to kick off the project.</p>
+
+      <p>Now, I'll say this now and repeat it again many times later, we were very lucky to have Masana on our team. Masana carried us through the event, extremely hard. He was the only one with really good experience with MonoGame and C#, so he had to do a lot of guiding work for us. I mentioned before that the rest of the team was pretty familiar with C-type languages, but not with a few caveats. Handerson, I believe, didn't work with C# specifically before, although he's had plenty of Java exposure. Grant and I have used both C# and MonoGame, but for mobile, so the setup was different. I wasn't planning on even touching the code since I was planning on just focusing on doing all the art assets, but due to circumstances, I eventually had to do a bit of coding as well.</p>
+
+      <p>Traditionally, I've always been relegated to art duty since VGDC has always been short on artists. That's just a fact that the club has to deal with since UCI's art and specifically digital art schools aren't that big nor involved with our activities. Most of the club members are from the Computer Game Science major or normal CS major. Because of all my art duties on various projects, I was thinking about pursuing some art career, but for various reasons, I think I'm ready to let that dream go. I think I'll write a blog post to cover some of those reasons more indepth, but I don't suppose it'll hurt to write some points here now, seeing how excessively long this already is.</p>
+
+      <p>I think a major factor is that I'm not studying art. All my school time is spent studying computer science, and, as I've been trying, it's difficult to juggle the two and succeed at both. I've been trying for these past few years to focus my free time into drawing and practicing art, and I just don't feel I'm improving to where I want to be. Yeah, yeah, I hear all that "don't worry, you'll get better over time, just keep at it" and "practice makes perfect" and etc. sayings, but when I have a career in the future to think about, and when I can't motivate myself on a daily basis to push myself to draw, improve, and keep up with my competition, I think it's time to call it quits.</p>
+
+      <p>I won't talk too much more about it here, but that's the gist of it. I'm not motivated enough to keep on drawing, and conversely, I've felt a new calling towards the programming that I've neglected. With all the school time I have left, I want to throw my focus into programming and into game development. I probably won't give up art entirely, sketching is a good time waster when a computer's not available and a good way to keep up my drawing fundamentals. Art assets will probably be undoubtedly necessary seeing the club's shortage of artists. But nevertheless, I've made the mental shift to stop pursuing art.</p>
+
+      <p>Anyways, back to the story, I announced that I probably won't be coding, and that I'll be working on art assets. The problem that I eventually ran into, however, was there there weren't at all a lot of assets needed. All I have to worry about are making tile patterns, creating some static trap sprites, and drawing character sprites. Since I've had tile experience before, making new patterns wasn't hard. The process I developed was making a 3 by 3 grid and then drawing the main design in the center tile. Overlapping sections outside of the center piece are then cut back onto the center tile to create the illusion of overlapping tiles.</p>
+
+      <img src="tileMaking1.png"/>
+      <p class="caption">First make a grid and draw in an initial design</p>
+
+      <img src="tileMaking2.png"/>
+      <p class="caption">Then cut sections that overlap the outside tiles into the center one</p>
+
+      <img src="tileMaking3.png"/>
+      <p class="caption">Now the center tile can be used as a repeating tile for a game</p>
+
+      <p>The character sprite making wasn't too difficult. There were four directions and two characters, but each moving animation was only four frames at most. Even long after the game jam ended, we only have a single move animation for the characters, still four frames max. I also had to make a death sprite, but this was only a single frame, and the death explosion were just simple blobs. Characters don't have a death animation. They merely fade out while the death sprite fades in. To be honest I was trying to be as lazy as possible. At one point I even tried to convince the group that we didn't even need characters and only a single marker to indicate WASD movement or arrow key movement. I'm glad I ended up working on the actual characters.</p>
+
+      <img src="characters.png"/>
+      <p class="caption">All of our character moving sprites</p>
+
+      <p>Traps also were not difficult since they were just static images. We decided on three types: a one tile spike that was like the typical trap you see spawning around, a larger 4x4 spinning blade that was just a larger version of the spike, and a shooting trap that shot a bullet out across the room. We were thinking about adding more types of traps later, but we never did, and I think this was a good enough variety. We wanted players to enter into the game and quickly knowing what each trap should do.</p>
+
+      <p>Masana actually did quite a bit of art. He quickly made the ending a star and the glowing triangles that spun around it. He was also responsible for doing most of randomization programming as well. On the programming side of things, I wasn't particularly involved for the most part until the end,  but from my understanding, things were looking not that great.</p>
+
+      <p>There's always Git problems to worry about, which I've seen completely kill projects by its own. We were relatively lucky in evading most of its issues this time around though. The only problems I think were that Masana didn't realize he had to add new assets to the repo before they would register. This was fixed after we relooked over our files and watched over Masana's commits in person.</p>
+
+      <p>Handerson also made a stupidly funny error that I'll always constantly remind him for the rest of his life. Like a god, he pushed to branch Master instead of lowercase master, and I kept flipping for a couple hours about how I couldn't find the new stuff and that Git was the devil reincarnate. But other than that, no major problems came up, although I'll leave with saying that during the hackathon, we pushed a lot of unnecessary files, so one of the first things I worked on after the hackathon was setting up a proper .gitignore to resolve these issues.</p>
+
+      <img src="master.png"/>
+      <p class="caption">This shall haunt you forever</p>
+
+      <p>While Masana worked on setting up the program, Handerson and Grant got together to start designing how the room/door/character/trap system would work. I'm not really sure what happened, but somehow the design they worked on ended up completely flawed during actual implementation. I'm pretty sure Masana had to come in save the day (again), and set up the ground work for us. For a time, Handerson, Grant, and even I (probably?) tried working on the random room/level generation, but everyone gave up, and Masana, like the hero and god he is, saved the day yet again by somehow writing it all for us.</p>
+
+      <p>Handerson then tried to work on a camera class, responsible for scaling when two characters leave a far enough distance from one another. It... sort of worked. On some cases it broke, but we ran out of time for a suitable fix. Grant I think ended up working on traps and successfully got the shooting trap working, although the bullet did glitch out sometimes. I even jumped in to do a little bit of programming and was responsible for characters dying and reviving, along with managing the fading between the different phases. Basically though, if there's anything to take away from our hackathon, Masana just carried us really hard. He did all the hard stuff involving generating the levels and placing the traps for the levels. And if that wasn't enough, he also made all the sound effects for the game, with BFXR I believe.</p>
+
+      <p>By the end of our 36 hours, everyone was burnt out exhausted. There is, I would probably say, a couple hours before the final deadline where we sat there, lifeless, tired beyond belief not doing anything. We were done, per se, in that we couldn't and didn't want to do any more. What we had was by no means a perfect game, but at least we got all the parts we wanted functional. Here is what we submitted to HackUCI:</p>
+
+      <iframe width="650" height="488" src="//www.youtube.com/embed/cCXAqvUSWGo?rel=0" frameborder="0" allowfullscreen></iframe>
+
+      <p>During the paneling, judging, and presentations, I felt, for some reason, freshly rejuvenated talking about the project and wasn't tired anymore. The rest of my team relaxed and rested, but I was fired up as I took over talking to people about what we did. We had a lot of heartwarming encouragements and congratulations that kept up my enthusiasm. Of course, let's be clear, Masana is the real breadwinner here for us in this hackathon.</p>
+
+      <p>We're very fortunate enough to have won 3rd for the hackathon, which I think surprised us. We had a very rough start, a rough working period, but we manage to do pretty well given our circumstances. Funnily enough, the 2nd place team was a high school team, and the 1st place was UC Riverside. Quite ironic, ahem, considering how this was hosted by UCI. Welp, there's always next year.</p>
+
+      <p>Overall, this hackathon was a great experience. Sure, we had our difficulties and our frustrations, but we got Chipotle for lunch. Yeah, that, and I got to work with a great team from VGDC and Masana. I felt our game idea had a lot of potential, and that with this team we could definitely polish it up and finish it up, so I pushed for us to continue after HackUCI ended.</p>
+
+      <p>Up to this point, I was never really able to completely finish and ship a game as well as it could be. This time, with this interesting idea and this strong team, I didn't want to waste this opportunity. I personally decided I would take leadership over it and complete it, even if I had to work on it on my own to do so.</p>
+
+      <p>At first, progress was slow. I believe my original goal was to finish it by the time summer started, because, I mean, nobody really expects anyone to do work during summer. With our slow progress, however, that ended up impossible and we had to push back the deadline. We met maybe a week or two after the hackathon to decide where we wanted the direction of <em>Tatami</em> to go. For our first one or two meetings, we were quite uneasy and undecided about what we should do, to the point where I think it was shaky even continuing the project.</p>
+
+      <p>There were a ton of small bugs to look at that we could hit right off the bat, graphical and mechanical. An easy one was collisions, whether that'd be collisions with walls, traps, or players. There was also plenty of room to polish and add extra flair, for example adding glowing effects and fading effects to everything. And there was always room to add a few more patterns to the tiles as well. But my main concern at the time was how to make the game more "gamey," if that makes sense.</p>
+
+      <p>What we had at the end of the hackathon was, if I recall correctly, levels with 300 rooms that would respawn over and over. This was quite fun on its own, but I think we could definitely work on the concept and make the levels more interesting. We can't just kept it as the 300 rooms as is. Are we going to make it kind of like an arcade mode? Where levels get progressively larger and harder as players progress? Can the players really get excited over just exploring random rooms? Can we somehow add a different kind of excitement to that?</p>
+
+      <p>The first thing we decided was to add collectables. We weren't really sure how they were going to be used, but we were going to add them anyways, because... uh... people like collecting things? There are some very iconic items from the show: neko ramen,  boobs, and castella for example, that we wanted to put into the game. Players would pick them up, although we don't know for what purpose yet.</p>
+
+      <img src="collectables.png" />
+      <p class="caption">The current items</p>
+
+      <p>We were thinking of possibly doing some network integration or something, possibly some kind of high score system, but as we wanted to keep it simple, we threw out these ideas. We debated back and forth about whether to include UI, perhaps in conjunction with the collectables, but as I think we liked the very minimalistic style we had now and seeing how I will even admit to being a bit pretentious and artsy to wanting to keep the game perfectly UI free, we decided against UI elements.</p>
+
+      <p>We did decide, I believe on the first meeting, for us to first watch the damn show, because it's really great, and if we're really going to work on the project, we should at least watch the source material. We also decided to change the format of the levels. I stressed that I wanted there to be an ending to the game, a reason motivated by the anime. Because the main character of the show was able to finally break free of his tatami galaxy I reasoned, so should the main character(s) of our game. We decided on a total of 11 levels, reflecting the episodes of the anime. Each level would double in size, to a total of roughly 1000 rooms on the last level (very hard, trust me!).</p>
+
+      <p>I wanted to use <a href="https://trello.com/">Trello</a> because I think it's such a great help in organizing tasks, and... I actually update it, but the rest of the team didn't want to use it. We used Google docs instead for notes and tasks since we created a Tatami Galaxies folder previously on Drive during the hackathon. I'm pretty sure I'm the only one who ever uses or updates my tasks on there though, but it was at least for me a good way to keep track of things.</p>
+
+      <p>We decided to throw away the star for the end of each level and instead have stairs indicating the end of the levels. Each start or end of a level will have a staircase with a number indicator on it, indicating the current floor/level you are on. The staircase was a reference to a brief shot of a staircase in the ED theme. You start on floor 11 and progress downwards to the first floor. Every end of the level will have a downward arrow, whereas the start of the level will simply tell you what floor you are on.</p>
+      
+      <img src="stairs.png" />
+      <p class="caption">Our various staircases
+
+      <p>With these new additions in mind, we had things to do for the short term. I also wanted to polish up a lot of transitions and add some more glow effects everywhere. Bad things are indicated by black glowing auras whereas good things are indicated by white glowing auras. Traps, for example, glow black, whereas dead player bodies, consumables, the end, and the start glow white. Small things like addressing how revive works also helped iron out some of the kinks in the game. It used to be that you would have to manually press a key next to a dead body in order to revive the character. This was quite awkward, so we changed it to reviving on touch.</p>
+
+      <p>However, I still felt we had some critical things to address in the game. There were two things still bothering me. The first was that collectables were absolutely pointless. Even if they're something cool to pick up, they don't do anything for you. I liked the idea, but they needed to have some use. Second, the game still seemed a little boring and tedious to me. The problem with how we did the level generation is that there is only one path from the start room to the end, and that meant a lot of dead ends. When players reach the last couple levels then, it felt like the game became more of a tedious searching game than an exploration one. I wanted to try and think of something to give it more of an exciting punch.</p>
+
+      <p>What we ended up with was actually quite genius, if I must say so myself, a combination of rewatching the ED theme and Handerson being a god. Along with the brief appearance of the stairs that we noticed, there was another couple objects brought up that could have some use, a toilet and a bathtub for a bathroom of some sort. Maybe we could possibly do something with these objects.</p>
+
+      <p>Originally, we assigned Grant to make the bathroom objects just random static blocks that spawned in rooms. Players could touch them without getting killed, but they could not walk through them. Another thing we noticed from the ending was the dark blur of the corners. Masana said he would try and make shaders to achieve those effects.</p>
+
+      <p>And then the idea hit Handerson and then to the rest of us. What about fading? What if the screen fades to black as time progresses, and you have to reach the ending before the screen dies out. Perfect. We thought about the things we couldn't use before. The collectables? You pick them up to give you a temporary boost against the fade. And the bathrooms? They could be like a base for rejuvenation.</p>
+
+      <p>I thought this was perfect. It gave the larger levels some more difficulty, but not tedious difficulty. Players would have to be more careful and navigate from bathroom to bathroom instead of just wandering around mindlessly. Bathrooms would be randomly generated throughout the level to offer protection, and the starting and ending rooms would be bathrooms themselves.</p>
+
+      <p>By this time, I believe it hit summer, and while the rest of the team's production slowed down, mine increased. Grant was interning 40 hours a week I believe for QAing and decided to leave the Tatami group. Understandably, we let him go seeing how busy he was. We assigned bathroom generation to him, but I ended up taking up his tasks. Handerson was also interning but less intensively, and continued on the project when he had free time. Masana... I'm not really sure. I kind of lost contact with him a lot over the summer. I want to say that he had an internship of some kind? He helped us in odd spurts.</p>
+
+      <p>Either way I wasn't too concerned with the others' summer plans, and I was more focused on what I could do myself. It was summer after all. This was a pretty low key project to the team, and I understand that we all have college/personal plans to attend to. If being the leader of the project meant checking up on everyone and making sure people did X or Y on time, I didn't do that.</p>
+
+	<p>I already assumed from the get-go that people would probably not contribute too much because of our situations, and the only output I can really expect is my own. I began to put in a lot of time into the project, fixing random things, polishing random things. Most of the groundwork was already there, all I had to was simply understand what we had and focus on improving it.</p>
+
+      <p>The first thing I did was enable full screen. Now, you may think this is a simple one liner .enableFullScreen() or something like that, and while that may be true for XNA, it isn't true of MonoGame. The two are actually different, you see. The latter is an open source implementation of the former, and isn't 100% complete/compatible yet. So... to enable full screen, I scurried the web for answers and finally found a <a href="http://2persongames.wordpress.com/2014/04/18/xna-to-monogame-full-screen-window/">suitable one</a> using Windows dlls. This is why unfortunately the game only works on Windows.</p>
+
+      <p>The next biggest thing I tackled was the dreadful collision problem. This was a huge major pain in the ass. Collision with traps was an easy problem to fix, all you had to do was calculate intersections of collision boxes, that was no problem. The problem really came when you tried dealing with wall collisions. Why? You ask, well that's because of the existence of doors.</p>
+
+      <p>You see, here is how door collision is calculated. You walk towards a wall. When you're a certain distance away, you check if there is a door in that wall position. If there is, then you enable movement through the wall and into the next room beyond. If there isn't, you perform normal wall collisions. Sounds easy right?</p>
+
+      <p>Yes, this works, but there are a lot of tiny edge cases and small glitches you have to account for. For example, you have to be very careful of how far the distances away from walls and doors you calculate, because if you miscalculate some distance, you may not be able to walk through a door, or you may get some weird unexpected behavior in one tile sized rooms.</p>
+
+      <p>This took hours of checking to fix, and there may still be some crazy case out there still unaccounted for. The most difficult bug for these wall/door collisions that I struggled with was a problem with velocity. When you run into a wall, say the top wall of a room, your y-velocity doesn't automatically jump to zero. Meaning, if you were to start walking left or right after hitting a wall and enter into the door zone, there would be a brief moment where your character would bump through the door before returning normally back against the wall.</p>
+
+      <p>The solution sounded simple in my head. Alright, then let's just say if you hit a wall, force your velocity to zero in that direction. This doesn't quite work by itself. For some reason, with this in place, whenever you walk through a door, your velocity would jump to zero unexpectedly. It just so happened that for some reason because of how and when your collisions are calculated, the game would think you hit the wall before the door and cut your velocity.</p>
+
+      <p>Note that I could not just have increased the wall to door distances, because then this would screw over one tile sized room. The player is roughly the size of one tile. The solution that I eventually came up with was quite hacky. Basically, I would keep track of all the doors I've seen, and whenever you run into a wall, it checks if you're actually going through a door. Not exactly the prettiest solution, but it solved our problem after other alternatives didn't work out.</p>
+
+      <p>This weird solution actually gave rise to something completely on accident that wasn't present in the game. You can now see all the past doors you've been through, an interesting and very helpful mechanic to help players keep general track of where they've previously been. I decided to keep this accident.</p>
+
+      <img src="doors.png" />
+      <p class="caption">Visible doors in action</p>
+
+      <p>I wasn't too worried about performance issues with these visible doors, or really in general. The game actually runs quite efficiently because there are only up to two rooms visible at one time. Rooms only start updating and drawing if characters are present within them. The most intensive part of the game is probably huge level generation, but that only becomes a slight problem for the large 1000 room levels. Even then, it's only an issue if you think 1~2 seconds is too long to load a level that size on my crappy laptop.</p>
+
+      <p>I also fixed a lot of small visual glitches and added small visual touches. For example, Masana made a floor overlay for the rooms so that there would be a tatami-like outline to all the rooms. It was a good concept that we continued to use, but the texture he made for it was not pixel perfect, leading to some inconsistencies on larger rooms, where pixels started to overlap or became placed incorrectly. I also added fades everywhere, between levels, with different indicators: black for bad/loss, white for good/success.</p>
+
+      <p>I also attempted to increase the randomness of the game colors. I felt like we could add some more randomness with the rooms by adding more colors in. I edited room borders to a randomly dark color, and doors are now a randomly light color. I preferred this a lot more over the original black border and white doors we had.</p>
+
+      <p>One thing I regret about this project and which was a symptom that resulted from the hackathon, was that we didn't have an animation class or sprite sheets. We thought it would be manageable since, after all, all we had to worry about was the character walking animations, and that could be hard coded. But as it turns out, as I worked on fading and glows, there were a lot of parts to these that I had to keep track of, and they got messy fast as I was updating separate glow values and checking them during draw. It's not fun having to mess around with separate frames and snippets of code everywhere. In the future, I'll be sure to account for these responsibilities properly.</p>
+
+      <p>As for the other members, Handerson was actually the one to make the first couple collectable/consumables, including the mochiguman that we ended up abandoning as a consumable and using as the ending to the last level. I ended up finishing off the collectable list by making a simple one or two more, and then later I colored them all to differentiate them color-wise from the traps. I also updated the traps by adding Ozu heads to all them. They previously only had a circle indicator, but by chance we could easily slap on a face to them where the circle indicators lay and not have too many problems.</p>
+
+      <img src="traps.png"/>
+      <p class="caption">Our lovely traps</p>
+
+      <p>Handerson began fixing the camera problems, which included things like making sure it scaled properly but still left enough room for players to navigate safely in. The full list of camera bugs actually never really got fixed by him. He added too much complexity to the code to account for special edge cases. Towards the end of the project, I eventually went in and basically rewrote it all to something simpler.</p>
+
+      <p>He also began working on death fade, adding in a very basic rectangular fade that could be countered by staying in bathrooms and picking up collectables. I went in and edited a lot of these values to manage the fading to my liking. At this time, I wanted to make sure I added one player and two player variability. Meaning if you were playing as one player, the fading wouldn't be as punishing as playing as two.</p>
+
+      <p>To do so, if both players are alive and one of them steps outside of a bathroom, the fading rate would be halved. Only when both players step outside of bathrooms does the fading rate go to full. If only one player is alive, the fading is globally halved. Bathrooms also had special properties. If two players are alive, they must both be in bathrooms to activate regeneration. If one of such players is running around outside, no regeneration occurs. If one player is alive, then only that player has to enter a bathroom for regeneration to occur.</p>
+
+      <p>This sounds pretty overcomplicated, and at the time Handerson didn't really understand all the different cases. I did realize that this was pretty complex, but I thought it would be pretty intuitive when actually playing the game. Turns out, after we made our first release in the beginning of September and got some feedback, the concept was still pretty confusing. Due to the responses, we decided to simplify things as much as possible. Namely, we made the fading rate always consistent.</p>
+
+      <p>Masana contributed a bit, though to be fair, much less than what he was able to do during the hackathon. The biggest tasks he accomplished were to make more sounds for the game, which we added in. He also worked on trying to get shaders to work so that we could have a circle fade and blurred edges. Unfortunately, he was never able to get shaders fully functioning. The problem is that they would lag the game way too much, and after further testing, he abandoned them.</p>
+
+      <p>Instead, he took an opacitated circle image and scaled it accordingly to the death fade. It was a good alternative, but I again went in and rewrote a huge chunk of the code. Part of my reasoning to do so was because I honestly didn't understand half of his code, but I also wanted to fit his version consistently with the fading code Handerson and I already worked on. I made the fade circle perfectly circular instead of stretched, and combined both the fading rectangle and the fading circle together. The main problem with using Masana's version alone is that it was often difficult to know when exactly the fade would kill you. Adding in our fade rectangle would solve that problem.</p>
+
+      <img src="fog.png" />
+      <p class="caption">Our simple fade circle</p>
+
+      <p>And lastly, Handerson created the path finding system for the end game. I had a vision that I originally wanted for it very early into the project, but I wasn't sure if we were going to be able to ever fully make it into reality. Basically, as a homage to the ED, I wanted to make a very stylized and cool ending to the game as well, rather than just the player end up hitting the ending and then just exit().</p>
+
+      <p>My idea was to remember the levels you've been on, and after beating the game, we show an ending sequence where we traveled through all the different levels played from start to finish until we sync up the ending of the 90 second song with the ending of the game, and then exit(). It was quite ambitious, but we were able to eventually do it, though with some complications. To this day there are probably some lingering crash bugs that come with playing the ending. It's difficult to test these issues, however, because we would have to run through gigantic levels in order to test them, and this process takes a long, long time, even with developers hacks. Also, because I rewrote some of the camera code, this led to some inconsistencies with Handerson's path finding code, leading to some unexpected errors.</p> 
+
+      <p>But, we got it complete in time, and it looks stupidly awesome. In the actual game, we used an 8-bit version of the ED soundtrack that loops over and over. For the ending, we actually play the 90 second ED directly, and it syncs perfectly with our ending sequence. I also made a title card animation for the ED, where I drew a large "Tatami Galaxies" text design with animating doors on each letter.</p>
+
+      <p>I also looked into level generation right before our first release, as an optimization measure and to make sure things were spawning correctly. As it turns out, there were a lot of unnecessary or excessive loops that I could remove. Funnily enough, when I rewrote the code and made the bounding boxes for each hazard proper, traps suddenly spawned probably give or take five times more often.</p>
+
+      <p>Since we were offering two t-shirts as a prize to the first person to beat the game, we thought it would be fine to leave the trap spawning as ridiculous as it was. Later, when no one could beat the game because it was so difficult, we eventually toned it down. Traps could no longer spawn two tiles directly around a door, so people don't accidentally run into one and kill themselves when entering a room. Shooting traps can also no longer be spawned to shoot the door directly. These changes were made so that the first tile after a door is always safe to walk into, no matter what type of room one entered.</p>
+
+      <img src="shirt.png"/>
+      <p class="caption">A little big... but here's my shirt!</p>
+
+      <p>There was an extremely annoying bug and mostly error on our part that I must mention here. We had a very stupid system of drawing things, that really screwed me over particularly while I was trying to test and debug the level generation. Our problem was that we couldn't decide whether to draw from the top left corner or from the center. This was a problem that started off during the hackathon, and it only grew worse as time went on.</p>
+
+      <p>You see, some of us (myself included) decided that it would be a good idea to draw everything from the top left since that seemed the most natural. But apparently, the actual draw functions are written to assume the center. So unbeknownst to most of us, Masana actually "took care of it" by writing a function that converted the top left corner point we fed the draw function with into the center point. Oh boy.</p>
+
+      <p>That wasn't the end of it. Things got even hairier. Apparently, when you initialized something, you specify it in the top left corner as the position, but when you update that object, it converts that top left position into the center. So now we had some weird inconsistencies to figure out where the top left gets converted to the center even though we use the top left corner which gets converted to the center, or something. Yeah.</p>
+
+      <p>In the end, I just decided to play the dirty game and work with what we have. It wasn't pretty, but I made some pretty hacky back and forth calculations to account for the discrepancies. The better plan would be to try and rewrite everything, but I literally would have to go through everything and change the update and draw methods of every class. That would take way too much time. My fix wasn't a great solution, but it worked with some muddling around.</p>
+
+      <p>Before our first release, I thought it would be a good idea to make a trailer for the game, so I told Masana to try and handle the video making. I mistakingly thought that he was the one who made original the HackUCI video above, but it turned out to actually be Handerson who did that. So after clearing up some misunderstandings, Handerson ended up volunteering to do the video again. You can view it below: </p>
+
+      <iframe width="650" height="366" src="//www.youtube.com/embed/i8jalAI1EcE?rel=0" frameborder="0" allowfullscreen></iframe>
+
+      <p>For a variety of reasons, we ended up not using it though. Upon first viewing, some of the reasons will be obvious. The video capture quality is pretty rough, and the sound volume jumps unexpectedly towards the end. We could have tried to do retakes/edits to try and get a better video, but this would take too much time out of the other issues we needed to address right before release. In addition, we decided leaving the video out would be an interesting experiment to run, seeing how far people could get with little to zero introduction to the game.</p>
+
+      <p>We had to push along with the project. Handerson was going to leave by the first or second week of September, so that really was when our deadline was. Masana's been... kind of MIA, and I wanted some free time to, well, do this site, so I wanted to finish a bit before summer ended. So the plan was to release everything neatly by the start of September, get maybe a bit of feedback, and then give a full release sometime later.</p>
+
+      <p>Well, what we didn't expect was that we would think of a ton of more things to add or change due to the feedback and discussion we got. We made roughly 10 updates to the game to try and make it more balanced. I've already mentioned some the major changes we made: fading simplified, ending crash fixes, camera updates, and level generation updates, but there were a lot of small things we also tackled.</p>
+
+      <img src="builds.png" />
+      <p class="caption">All our various public builds</p>
+
+      <p>For example, one odd thing that bothered me was that the ending token spawned in a normal room, even though this room was considered a bathroom. It doesn't really make sense for you to regenerate in a normal room, so to make this more consistent, we spawned the winning token inside a bathroom instead. Another was that people didn't really have a good idea where to go or the specific game mechanics of the game. For instance, people didn't realize you could revive dead players by touching their dead bodies.</p>
+
+      <p>To attempt solve these issues, we made "mini-spirals" that acted as local indicators of things you should probably touch or go near. Whereas the larger spinning spiral indicated the end of the levels, the smaller ones were placed on dead bodies, collectables, and bathroom toilets. Unfortunately, I don't think this was enough of an indicator fully motivate and teach players what we wanted, but at least we felt it was a nudge in the right direction.</p>
+
+      <p>I don't think we ever really got through this teaching hump. Originally, we wanted to just throw players into the game and have them learn the different mechanics on their own, with no instructions or tutorials. This method of thinking probably caused more harm than good. I suppose for slightly pretentious/artsy reasons, we just didn't want to ruin the minimalistic aesthetic that we've already established for the game.</p>
+
+      <p>I really felt out of place adding in any UI elements or instructions of any kind into the game we had now. We've worked so long on it without incorporating any on-screen or extraneous elements, so I wanted to keep it as is. At one point I relented by including basic movement displays on the first level, showing WASD and the arrow keys to prompt the player to move the two characters. However, in the final version, I opted to remove everything altogether and instead place a separate detailed instructions.txt files for help.</p>
+
+      <img src="oldInstructions.png" />
+      <p class="caption">Our old instruction overlays</p>
+
+      <img src="newInstructions.png"/>
+      <p class="caption">Our new instructions.txt</p>
+
+      <p>For sound, we made some small modifications from our feedback. A small, but impacting change Handerson made was shortening the weird buzz at the end of the level song. We didn't realize it was so annoying since we usually played with volume off and when we did play with it on, we got used to the buzz sound. It was part of the original song, so as a result of I suppose artistic integrity, I felt a little bit disinclined to messing with it. Still, looking back on it, removing it in the long run I think was definitely for the better.</p>
+
+      <p>We also added some more sound effects and played sound effects more often to indicate certain kinds of effect. For example, it used to be that you would hear a pickup sound only when you picked up a collectable, but because we wanted to indicate the healing aspects of the bathrooms, if everyone alive enters a bathroom, the pickup sound now plays when this occurs. And finally, when the death fade is close to killing the players, the tune of the song starts to warp and sound off tune.</p>
+
+      <p>Fast forward a few days, we made a pretty big but already foreseen change to reduce the difficulty, but we reduced it too much in fact. It turned out that there was a bug with level generation, and shooting traps, probably the most difficult trap to deal with, spawned too infrequently. By that point, someone unfortunately took advantage of our mishap and beat the game, claiming the T-shirt prize. After looking into the spawn issue, I later fixed it with some minor adjustments.</p>
+
+      <p>It was this said person, Ed, that actually helped us fix some end crash bugs. By far, fixing the ending crashes was the most difficult task since it took so long to test a change. After much trial and error and time spent playing the game, I'm relatively certain we've ironed out most of the issues. The first major issue was that we actually forgot to build the project with the ending song, and after that, there were some camera issues that were looked at. I hopefully hope that everything's fine now.</p>
+
+      <p>The week since releasing the game publicly and before Handerson left was the hardest week for all of us and resulted in a ton of changes. Having feedback definitely benefited us for the better. We had thought originally that our first build was already pretty good enough as is, but feedback definitely gave us new insight into areas we didn't thoroughly overview or areas that escaped our noticed.</p>
+
+      <p>Now the story of this game development pretty much reaches an end. Handerson left for vacation, and with the game in the relatively good state it was, I decided to say my goodbyes to it as well. Masana was actually almost 100% silent during our week of feedback changes. Handerson and I were basically the only ones working during this period.</p>
+
+      <p>So now I've done it. I've finished this game to a good enough state that I'm proud of, my first of hopefully many complete accomplishments. I don't want to sound too ostentatious or arrogant, but I definitely think I contributed the most after the hackathon. I must give credit to Masana for critically laying the ground work for us at the hackathon, but after that, I definitely was the one who spent hours and hours of my leisure time to see this game through, and it was this effort that kept the game going and improving.</p>
+
+      <p>Of course, I must thank the team for their work, especially Handerson, for constantly giving feedback and keep discussion going between us. It's definitely very nice having a second voice to trade ideas back and forth with. I appreciate the time and effort everyone's put in despite their busy schedules.</p>
+
+      <p>We're lucky that the scope of the project was relatively small. We didn't have many art assets to worry about, and there weren't a large number of different parts to the game. The idea was feasible, and any one of us, with time, could undoubtedly polish and finish the game. Though level generation and path finding, the most algorithmically intensive parts of the game,  did throw us for a loop here and there, they were manageable even for our small team.</p>
+
+      <p>For <em>Tatami Galaxies</em> I think I'm most proud of how much we were able to polish the game by the end of the summer. Lots of games I've worked on can be considered playable. They "work," so to speak, but I think <em>Tatami</em> is the first game I've been a part of that went beyond just playable. It's grown tremendous bounds since its inception in the hackathon to become the complete and coherent game it is today.</p>
+
+    </div>
+
+    <hr>
+
+    <div id="footer"></div>
+</html>

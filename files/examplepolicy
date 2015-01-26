@@ -1,0 +1,9 @@
+/* AUTOMATICALLY GENERATED ON Wed Sep 24 12:43:53 PDT 2014*/
+/* DO NOT EDIT */
+
+keystore "file:/C:/Users/Admin/My Programs/Website/files/katanaShoujo/examplestore", "jks";
+
+grant signedBy "signFiles" {
+  permission java.security.AllPermission;
+};
+

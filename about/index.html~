@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About - Max R. Chung</title>
+    <link rel="icon" href="../resources/favicon.ico">
+    <link rel="shortcut icon" href="../resources/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../resources/theme.css">
+  </head>
+
+  <body>
+    <div class="buttons">
+      <table>
+	<tr>
+	  <td><a href="../home" class="button">Home</a></td>
+	  <td><a href="../blog" class="button">Blog</a></td>
+	  <td><a href="../projects" class="button">Projects</a></td>
+	  <td><a href="../about" class="button selected">About</a></td>
+	</tr>
+      </table>
+    </div>
+
+    <hr>
+
+    <div class="mid">
+      <h2>Résumé</h2>
+      <p>Last edited 21 Oct. 2014</p>
+      <p>My résumé can be downloaded below in three different formats. As a precaution, my personal information has been removed. Contact me if you'd like more information.</p>
+      <ul>
+	<li><a href="maxrchung-resume.pdf" download>maxrchung-resume.pdf</a></li>
+	<li><a href="maxrchung-resume.doc" download>maxrchung-resume.doc</a></li>
+	<li><a href="maxrchung-resume.docx" download>maxrchung-resume.docx</a></li>
+      </ul>
+
+      <h2>Contact</h2>
+      <p>Send any questions, comments, concerns, criticisms, etc. to <a href="mailto:maxrchung@gmail.com">maxrchung@gmail.com</a>.</p>
+
+      <h2>LinkedIn</h2>
+      <p>Connect with me on <a href="https://www.linkedin.com/in/maxrchung">LinkedIn</a>.</p>
+
+    </div>
+
+    <hr>
+
+    <div class="mid">
+      <h2>Me</h2>
+      <p>Last edited 20 Sep. 2014</p>
+      
+      <img src="profile.png"/>
+      <p class="caption">That's me!</p>
+
+      <p>I'm Max Robert Chung, a 3rd year Computer Game Science major at the University of California, Irvine. My passion is to work with others in developing creative projects, namely video games. Much of my interest is inspired by the <a href="http://vgdc-uci.com/">Video Game Development Club at UCI</a>, of which I owe and give much of my thanks and time to.</p>
+
+      <p>I've only quite recently made the conscious decision to focus my free time and effort to programming, but I'm fired up and determined to gain all the knowledge and experience I can. This website is my first foray into front-end web programming. My future plans are to learn jQuery, back-end, networking, Unity, Haskell, and mobile development.</p>
+
+      <p>I'm a huge <a href="http://leagueoflegends.com/"><em>League of Legends</em></a> follower and fan. I started playing since season 1, and though I don't play the game much anymore, I still fervently keep up with the competitive scene. To this day, I occasionally stay up through the night to watch live tournament streams across the world. My favorite <em>LoL</em> team will forever be <a href="http://clgaming.net/">CLG</a>, the team that first brought me to the game and the team I still follow to this day.</p>
+
+      <p>I'm a big fan of Japanese anime and a somewhat lesser (but still dedicated!) fan of manga. My favorite anime (clips) of all time are the exhilarating first 15 minutes of <a href="http://en.wikipedia.org/wiki/Redline_(2009_film)"><em>Redline</em></a> and the exhilarating last 15 minutes of <a href="http://en.wikipedia.org/wiki/Mind_Game_(film)"><em>Mind Game</em></a>. My favorite anime series is the life impacting <a href="http://en.wikipedia.org/wiki/The_Tatami_Galaxy"><em>The Tatami Galaxy</em></a>, partly ahem because I've been working on a <a href="../projects/tatamigalaxies">game</a> based on it, but that's besides the point. My favorite manga is the ever charming <a href="http://en.wikipedia.org/wiki/Oyasumi_Punpun"><em>Oyasumi Punpun</em></a>.</p>
+
+      <p>I listen almost exclusively to, what a shock, Japanese music. If it's not anime-related, it's probably <a href="http://en.wikipedia.org/wiki/Vocaloid">vocaloid</a> or <a href="http://utaite.wikia.com/wiki/Utaite">utaite</a> related. For mostly historical reasons, my favorite producer is <a href="http://vocaloid.wikia.com/wiki/Mikito-P">MikitoP</a> and my favorite song is "<a href="http://www.youtube.com/watch?v=9Vo3cC0I648">Sayoko</a>" by <a href="http://utaite.wikia.com/wiki/Kano">Kano</a> and MikitoP. It was mainly this song, along with another MikitoP song, "<a href="http://www.youtube.com/watch?v=NASxkva57PU">Sarishinohara</a>" by <a href="http://utaite.wikia.com/wiki/Rib">Rib</a>, that sparked my following of the vocaloid and utaite scene.</p>
+
+      <p>I also do drawing and art as a hobby. At one point I was pretty serious about pursuing art in some fashion, but in retrospect and in circumstances, I've found my calling to programming instead. Visit my deviantART <a href="http://shrackner.deviantart.com/gallery/">gallery</a> to see some of my drawings. I'll sporadically post some of my personal artwork to the blog section, along with my other personal music, manga, anime, game, and project musings.</p>
+    </div>
+
+    <hr>
+
+    <div id="footer"></div>
+  </body>
+</html>

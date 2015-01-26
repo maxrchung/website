@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+  <head>
+    <title>Nov. 2014 - Max R. Chung</title>
+    <link rel="icon" href="../../resources/favicon.ico">
+    <link rel="shortcut icon" href="../../resources/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../../resources/theme.css">
+  </head>
+
+  <body>
+    <div class="buttons">
+      <table>
+	<tr>
+	  <td><a href="../../home" class="button">Home</a></td>
+	  <td><a href="../../blog" class="button selected">Blog</a></td>
+	  <td><a href="../../projects" class="button">Projects</a></td>
+	  <td><a href="../../about" class="button">About</a></td>
+	</tr>
+      </table>
+    </div>
+
+    <hr>
+
+    <div class="mid">
+      <h2><a class="noDecoration" href="15">Mid-November Songs</a></h2>
+      <p>15 Nov. 2014</p>
+
+      <p>Hmm. I've been meaning to make a more serious blog about more personal stuff. I'm also working on a couple ongoing projects at the moment that I'd love to write about; I'm involved in a VGDC project and a Capstone project at the moment. But I'll leave the my personal stuff to when I have long stretches of time to do nothing, and I'll talk about the projects when they're over.</p>
+
+      <p>I've been playing a bunch of games these days: Tetris Attack for my Capstone project, which is pretty interesting, and I suck at it; Nuclear Throne, for my VGDC project, which is also pretty hard, and I haven't beaten it yet; League of Legends, which I somehow got back into getting semi-addicted to it playing ARAM and hilarious normals with friends; a bit of hardcore Diablo II, since my group of friends wanted to play it; and also some osu!, which I'm hoping to start a casual online group for to play with.</p>
+
+      <p>November was a great month for my music. I found a string of great songs over these weeks. First, MikitoP released a new album with some vocaloid goodies:</p>
+
+      <iframe width="650" height="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/175586519&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+      <iframe width="650" height="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/175586560&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+      <iframe width="650" height="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/58152343&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+      <iframe width="650" height="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/175586599&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+      <iframe width="650" height="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/175586592&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+      <p>The last song was a collaboration between MikitoP and keeno. keeno also released another new song on his own that I really like:</p>
+
+      <iframe width="650" height="366" src="//www.youtube.com/embed/Zs1vzQPEXTw?rel=0" frameborder="0" allowfullscreen></iframe>
+
+      <iframe width="650" height="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/176958858&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+      <p class="caption">Limit/Suya cover</p>
+
+      <p>It sucks that Nicovideo maxes out your total channel subscriptions and mylist follows. I missed the keeno song because I was never subscribed to his updates. I didn't find it until I found a Limit cover of it.</p>
+
+      <p>And finally, the next is an old OneRoom song that I really like. It was recently redubbed with v flower by cilia.</p>
+
+      <iframe width="650" height="488" src="//www.youtube.com/embed/OGxCRuYGqyU?rel=0" frameborder="0" allowfullscreen></iframe>
+      <p class="caption">cilia cover</p>
+
+      <iframe width="650" height="488" src="//www.youtube.com/embed/DIO__fvhV0E?rel=0" frameborder="0" allowfullscreen></iframe>
+      <p class="caption">Original OneRoom version</p>
+
+      <p>I found a random cover of the song on Youtube by nShaken. Haven't looked much into covers of this song since the vocaloid versions already sound really good, but Kuripurin sounds nice. I can't remember her much off the top of my head, but if I recall correctly, she is a Korean utaite. And I think she has a really good Sleep Sky Walk cover. Nope, I was thinking of someone completely different.</p>
+
+      <iframe width="650" height="488" src="//www.youtube.com/embed/lysFW--CIQE?rel=0" frameborder="0" allowfullscreen></iframe>
+      <p class="caption">Kuripurin cover</p>
+
+      <div class="player" style="height: 407px">
+	<script type="text/javascript" src="http://ext.nicovideo.jp/thumb_watch/sm22888888?w=650&h=407"></script><noscript><a href="http://www.nicovideo.jp/watch/sm22888888">Niconico 【GUMI Whisper】シンクロサイクロトロン・スピリチュアライザー。</a></noscript>
+
+
+
+
+
+    </div>
+
+    <hr>
+
+    <div id="footer"></div>
+  </body>
+</html>

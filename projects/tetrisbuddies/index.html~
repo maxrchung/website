@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tetris Buddies - Max R. Chung</title>
+    <link rel="icon" href="../../resources/favicon.ico">
+    <link rel="shortcut icon" href="../../resources/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../../resources/theme.css">
+  </head>
+
+  <body>
+    <div class="buttons">
+      <table>
+	<tr>
+	  <td><a href="../../home" class="button">Home</a></td>
+	  <td><a href="../../blog" class="button">Blog</a></td>
+	  <td><a href="../../projects" class="button selected">Projects</a></td>
+	  <td><a href="../../about" class="button">About</a></td>
+	</tr>
+      </table>
+    </div>
+
+    <hr>
+    
+    <div class="mid">
+      <h2><em>Tetris Buddies</em></h2>
+      <p>Last edited 2 Jan. 2015</p>
+
+      <h2>Info</h2>
+      <p>Tetris Buddies was a 72-hour game jam project themed on making networked Tetris. The game was written in Python 3.1.4 and Pygame 1.9.1 and is currently available only for Windows.</p>
+
+      <ul>
+	<li>Made by: Max Chung, Alex Lewis, Winston Liang, and Derek Malonzo</li>
+	<li>Download (multiplayer): <a href="TetrisBuddies.zip" download>TetrisBuddies.zip</a> (15.9 MB)</li>
+	<li>Download (single-player): <a href="TetrisBuddy.zip" download>TetrisBuddy.zip</a> (15.9 MB)</li>
+	<li>Repositories: <a href="https://github.com/JettDota/TetrisBuddies">TetrisBuddies</a> (Old), <a href="https://github.com/shrackner/TetrisBuddies2">TetrisBuddies2</a> (New)</li>
+      </ul>
+
+      <h2>Background</h2>
+
+      <p>This game jam was made over winter break with a couple of local friends. I've worked with these guys twice already, during last summer break on <a href="http://maxrchung.com/projects/katanashoujo/">Katana Shoujo</a> and winter break on Kidnapper. I think we're hoping to make this a biannual thing, meeting every half year or so and jamming. Ideally, I'd like to have jam every quarter break for myself, but because some people are on semester system, our breaks usually don't coincide around then. Perhaps we'll maybe do something twice during the long summer break. Who knows. Time will tell.</p>
+
+      <p>The idea for Tetris Buddies came from a variety of places. Right after Katana Shoujo was finished, we really didn't have a new idea to go off of. I think the second best idea someone brought up was making a digital trading card game. A few of us in particular played <a href="http://en.wikipedia.org/wiki/Yu-Gi-Oh!">Yu-Gi-Oh!</a>(what obnoxious titling) and wanted to possibly remake it. I was opposed for a couple of reasons. First, I personally didn't play Yugioh, and I know a lot of us on the team didn't, so making a remake of a game we never played could get complicated.</p>
+
+      <img src="duelingNetwork.jpg" />
+      <p class="caption">Some random screenshot I found of <a href="http://www.duelingnetwork.com/">Dueling Network</a></p>
+
+      <p>And with these people too, you can't expect them to do any prep work for you, so trying to get people to play Yugioh was out of the question. Just having people show up with some software installed and ready to go is already an A+ grade for effort, and I don't think you can ask for much else. Another option was to just make a new TCG by scratch. I think this will be better suited for us, and something to consider for the future. It'll be an interesting and should-be doable task for programmers, and art will have plenty of work for cards.</p>
+
+      <p>However, I'm worried that it'll get overcomplicated way too fast. We don't have any specially trained designers, and with our not really great success with designing for Katana Shoujo, the actual game system could be messy to adjust and test if we don't know what we're doing. Also, since we had mixed success with Katana Shoujo, with people going missing or somehow not getting things to us (cough Anni) and with people often not being able to do anything, I felt it was better to downsize the project into something more basic.</p>
+
+      <p>Also, for selfish reasons, I wanted to work on a networking project and finally dig my fingers deep into the Internet. Thus, I pitched networked Tetris to us: Tetris, because it seemed a basic idea to start and elaborate on, and networked, because of my personal reasons. And additionally, we were going to use Python, since it was a simple enough language that everyone could pick up or already knew. Derek too, apparently, was learning Python off of <a href="http://www.codecademy.com/">codeacademy</a>, so I wanted to gear the project towards him as well.</p>
+
+      <p>We used <a href="https://www.python.org/download/releases/3.1.4/">Python 3.1.4</a> with <a href="http://www.pygame.org/download.shtml">Pygame 1.9.1</a> since those seemed to be the most stable official releases. I believe there are definitely more up to date versions of both. Python is far past into the 3.4 and starting to hit 3.5 updates, and even 3.1 has a 3.1.5 update. However, the 3.1.5 was only available in source, and since I didn't want to trouble us to go into compiling all nonsense, I chose to use the easier to use 3.1.4 with an installer.</p>
+
+      <p>Pygame 1.9.1 was also an old version. Officially on the Pygame site, only up to Python 3.2 is supported, using I believe Pygame 1.9.2a, but there was a VGDC group that had Pygame working for Python 3.4. I only briefly talked with them about how they got it to work, and I believe they used this <a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#pygame">unofficial</a> download page. It seemed like their game never ran into any problems, but I wasn't ready to make a leap into unofficial territory yet, so I chose to stick with whatever was most reliable at the time. Setting up took me like 15 minutes. I've used Pygame in the past, and the installers made everything easy.</p>
+
+      <img src="pygame.png"/>
+      <p class="caption">What we used</p>
+
+      <p>This meant that we would need close to zero artists for this project, and I plus the others could all focus on programming. Unfortunately, this meant I had to cut some ties with Anni and Tiffany. I do feel sorry for doing so, since for these kinds of projects, the more the merrier, and it was more of a chance to hang out and catch up with friends rather than actually making something complete. But I wanted to also see how far we could go when all our efforts was focused in one area. Next summer, I think we are set to go with my next idea of making an animation tool. That'll hopefully bring our whole team together with both programming and art parts.</p>
+
+      <p>I think the team felt networked Tetris was a good enough idea that suit our needs. It wasn't anything ridiculously fun and crazy like Katana Shoujo or Kidnapper, but it was basic enough that I think everyone could contribute more to the project. There were quite a few members that ended up doing nothing for the past jams, and hopefully this time they'll be able to add more.</p>
+
+      <p>There was also another reason why I wanted to do Tetris, involving my capstone project, Block Buddies. Originally, I actually pitched the networked Tetris idea to my capstone class on the spur of a moment. None of the other pitches interested me, and I wanted to really work on a deeply networked system, with a database holding stat information, and that incorporated contained friends lists, chat, etc., all bundled with a simple game.</p>
+
+      <p>However, even though I got a team for the project, every single member rejected doing Tetris and wanted to do another game idea, for various reasons that boiled down to being "not creative and already done." One member tried to bring up his own idea but that had way too many holes in it. Eventually we went with a spin-off of <a href="http://en.wikipedia.org/wiki/Tetris_Attack">Tetris Attack</a>, where instead of swapping pieces side-to-side, you can swap up-and-down as well. The details for that game's development will be left for that project's page once it's been made. The important takeaway was that I still wanted to do Tetris, and doing it with my local team seemed fitting and doable.</p>
+
+      <p>Alright, come the day of the jam, a few things went amiss. First, we didn't really appropriately plan for a date for the jam. I sent out a <a href="http://www.when2meet.com/">whenisgood</a> scheduler to everyone and asked everyone to mark their appropriate dates. After asking multiple times, I only got a total of one response back for Saturday, Sunday, and Monday of December 27, 28, 29. Nobody said anything if this was good or bad for them, so I just went ahead and did those dates. To give us a full 72 hours, I started the jam at midnight of Saturday and ended on the midnight of Tuesday.</p>
+
+      <img src="whenisgood.png"/>
+      <p class="caption">Thanks God</p>
+
+      <p>Ironically, it turns out the only person who responded, Derek, actually made a mistake, and he actually meant to put down Friday, Saturday, and Sunday. We ended up doing the midnight to midnight of Saturday to Tuesday since I wasn't notified. I admit though, starting on midnight was probably not a great idea. Next time, I'll do something like Friday night to Sunday night or Friday morning to Sunday morning so we get a bit of buffer time. I shouldn't be expecting people to pop up in the middle of night.</p>
+
+      <p>Well, the final team that appeared during the jam was only 4 of us, out of an expected half a dozen or so. Not too horrible, I suppose. We missed Victor completely since he was on vacation in Canada. The other two no-shows, Dehowe and Vince just randomly didn't make it. I don't really know their circumstances. Vince I think was just lazy, as always. Dehowe mentioned something about family and that he would come by when he could, but he never showed up.</p>
+
+      <p>The final four was me, Alex, Derek, and a new member, Winston. Alex and Derek have been with me for the last two jams. Alex is a programmer I can trust to do things. He doesn't write the cleanest of code, and though he hasn't programmed  for the last couple of months or know Python very well, I could at least assign him to do some tasks. Derek on the other hand was pretty hopeless, but understandably hopeless. He recently switched majors to Computer Science and only did some basic Python tutorials. I couldn't trust him with doing anything major, but I hoped that at least this jam would be an interesting foray to programming, and I think he would agree with me that it was.</p>
+
+      <p>Winston was an interesting case. I met him from working on <a href="http://maxrchung.com/projects/autumn/">Autumn</a>, a recently started VGDC project. Winston is a second year, and he's had some groundwork in Python already. I haven't worked with him too personally in any of these jams though, so I didn't really know what to expect from him. I actually forgot until the day before the jam was going to start that Winston actually lived close to me. I remembered that he was thinking about riding up back home with me next quarter's break, so I just on a whim asked if he would like to come to the jam. I didn't expect him to show up since it was so last minute, but he did, and he surprisingly contributed a lot.</p>
+
+      <p>Alright, now to get in the thick of things, I was responsible for all the networking portions for the program because no one else has had any networking experience. I wasn't too familiar with Python either, so about 6 hours before the jam, I started cramming knowledge down my throat with Python syntax. There were a lot of different parts I know I had to cover: classes, sockets, multi-threading, Pygame, and importing other files  were the main parts I tackled, and it helped me a lot having a head start in these areas. Of course, I didn't actually write anything for the project itself, but I just had some basic toy programs to help get me familiar with the language.</p>
+
+      <p>I have to say I really like Python. It's fast and fun to use once I get familiar with its a little quirky syntax compared to the C++ I've been working with all quarter. It's a great deal simpler too, and I'm grateful for that. I like how I can just open up IDLE and quickly type in two lines to test some code. Very convenient. I feel very inclined to use Python in the future because it's so easy to work with. Performance-wise, sure, it won't stack up to C++, but for small game jam projects like these, Python and Pygame are definitely a great starting point for prototyping.</p>
+
+      <p>Alex and I did complain a lot getting used to it at first though. We joked that we would write code that we didn't understand and that were sure to break the game but that ended up working anyways. Alex used the <a href="http://www.liclipse.com/">LiClipse</a> AKA 1337Clipse as he called it. Winston used Eclipse that he set up from his previous classes. I used good old Emacs. IDE's would've helped me catch syntax errors, but I didn't want to download more editors and I felt pretty comfortable on Emacs already, so I stuck to it.</p>
+      
+      <img src="emacs.png" />
+      <p class="caption">The only reason I use it is because it (almost) has my name in it</p>
+
+      <p>Alex was to first to arrive to the jam, sometime on 11:30PM of Friday. He started working on the game portions, and I began on the networking side. I decided to implement a peer-to-peer model with UDP for Tetris Buddies. This decision was made mostly because I wanted to try something different from what I worked on in Block Buddies. Because Block Buddies was a larger, longer, and secure project, for that game we decided to implement a client-server model with TCP. So naturally, I'd try the complete opposite for this game and do peer-to-peer with UDP.</p>
+
+      <p>Planning the network structure was actually somewhat of a challenge. After some thinking and a bit of talking with Alex, I decided to use a room model. One thing I wanted to do in this jam was to avoid having to ever type out an IP address on the player's side. I thus made a structure where players would enter a lobby with a name, had the option to host games or join games, and after playing the game, had the option to rechallenge or leave back to the lobby.</p>
+
+      <p>The idea was that the player would go through a series of different states, and depending on these states, do different things. Players began in the 'NameSelection' state, where they were welcomed to the game and chose a name for themselves. Then they would enter the 'Lobby' state. Here, they can either choose to become a 'Host' or poll for available rooms. Polling essentially means sending a broadcast packet on the local area network to look for all available hosts, and these hosts would then respond back telling the poller about his existence.</p>
+
+      <img src="console.png" />
+      <p class="caption">Example of the game and of state changes</p>
+
+      <p>The poller can then challenge hosts that they've found, and times out after a certain period. On the other end, the host waits for any incoming requests. If a challenge arrives, he can either choose to accept or deny the request. If he accepts, then the game is started and both players enter the 'Playing' state. At this stage, it's up to Alex and the game crew to decide how to initialize and update the GameBoard. Each player also regularly sends a 'PlayingUpdate' packet in this stage to notify the other player of the boards. I also laid out a few 'Playing' state packets I know we'll need, like 'PlayingLose' to indicate a loss and 'PlayingLine' to indicate lines sent over.</p>
+
+      <p>Finally, after finishing the game, the players enter the 'Result' state. In this state, the challenger can send a request to rechallenge the host, and the host waits for the rechallenge message. If the host accepts, the game is restarted. The host and challenger can also leave the state and return back to 'Lobby.' Like the lobby's state challenge, a rechallenge can also time out.</p>
+
+      <p>The way I wrote the program was somewhat messy. At the end of the jam I had a close to 500-line bloated Game class that dealt with each separate state. The only other major code chunk was in a separate NetworkManager, which held the message thread for receiving packets. I'm not too sure how I would break these sections into smaller chunks, but in the end it wasn't too hard to navigate. There were some large copy pasted sections that were less than practical to deal with, but for the most part everything was segmented I think pretty evenly between the different states.</p>
+
+      <p>I chose to implement all the networking portions in console. I could have potentially made a GUI with Pygame for all the different parts but that would have meant significantly more work. Since this is a game jam after all and since I may need to address other sections later, I wanted to finish up my parts quickly and move on to other tasks.</p>
+
+      <p>The trickiest thing I had to deal with on my end was probably getting the host to receive a message past input. I tried an implementation where all states of the player would require the player to type in a letter command, such as 'h' or 'q' in order to interact with the program, but I quickly found out that I could not do this for host.</p>
+
+      <p>This was because when a host receives input, the entire program stops until the player hits return. While this isn't problematic for states like 'Lobby', this was a problem for 'Host' because the host needs to be interrupted when a challenger is requesting a match with him. Blocking for input means that the host will always see the message late, or not see it at all.</p>
+
+      <p>I tried different attempts to try and get past that, but in the end I couldn't find a solution to break out of input and have the host receive a message. So I changed the implementation of 'Host' entirely where now the host merely waits for any incoming messages and doesn't have input at all. After some fiddling around, I eventually allowed the host to quit back to 'Lobby' upon pressing Escape. Note that this wasn't input, but rather checking for keypresses.</p>
+
+      <p>And to speak up a little more about this section, I ended up having to use a Windows specific keypress check after Googling around for answers. I tried to use Pygame to check for keypresses, but after an hour of failure, I realized that Pygame doesn't actually check for keypresses within the console. You have to actually make a Pygame display and press a key within that window if you want Pygame to register a key.</p>
+
+      <img src="keypress.png" />
+      <p class="caption">Thanks msvcrt, whatever you are</p>
+
+      <p>But that wasn't the most bizarre part of this implementation. I struggled for a time to figure out how to get the host's messaging thread to communicate with the host's main thread that a challenge request has been received. Looking back on it now, clearly the best solution was to have the message thread put the packet into the message queue and have the main thread process that packet. I even do have this queue implemented for other parts, but for some reason I lost my mind and decided to do something five times crazier.</p>
+
+      <p>I somehow thought the best idea was to raise an exception from the message thread and have the main thread catch it. For general exceptions and user defined functions, however, this was not possible, as any exception thrown in the message thread would only be caught within the message thread. That is... until I found an obscure function from the _thread class called interrupt_main().</p>
+
+      <img src="interruptMain.png"/>
+      <p class="caption">Thank you magic function</p>
+
+      <p>This function raises a KeyboardInterrupt exception in the main thread. Perfect. Just what I needed. So now in the 'Host' state, a while True: loop continuously runs until the message thread tells the main thread to throw a KeyBoardInterrupt exception, which is then caught and dealt with. In retrospect, I think this was a pretty hacky solution. Actually, I feel really dumb right now, because the message thread still puts the packet on the queue, and the 'Host' still goes through the queue to look for the corresponding packet. I'm really not sure why I did that. The only thing I can maybe think of is that I wanted a while True loop be continuously run after giving the 'Host' instructions... but I don't know. Oh well, next time I'll hopefully not resort to these odd solutions.</p>
+
+      <img src="exceptKeyboardInterrupt.png"/>
+      <p class="caption">Yep</p>
+
+      <p>UDP is expected to be unreliable, so I have some TTL timers that make sure that the other side responds properly and in time. If any of these timers go above some limit, the connection is broken between the two and they are sent to previous states. For example, if a challenger fails to receive a response from the host within a period of time, then the challenge times out and challenger can try again to send a second response. Or if a player stops receiving game board updates from his opponent, then the game automatically closes and he is sent back to the Lobby or Host state.</p>
+
+      <p>Another thing I had to pick up was using pickle. Because sockets only allow players to send things as bytes, I couldn't just throw a list of values into the socket and receive it properly on the other side. Again with trusty Google, I tried to find a solution. The first recommendation was to use JSON, but that led to failure. I ended up successfully using pickle, specific to Python I believe, to encode and decode my lists into usable formats.</p>
+
+      <img src="pickle.png" />
+      <p class="caption">Using pickle, man I should figure out how to embed code one of these days</p>
+
+      <p>I'm lucky that I have a bunch of old laptops lying around. For some reason, my family is addicted to old Lenovo Thinkpads, probably because they're so cheap, so we have a lot of these just strewn about the house. I found one in my room somehow, and though it has some uh... suspicious Windows version installed, it seems to work fine. Obviously not a powerhouse machine or anything like that, but it worked fine as a testing machine for multiplayer.</p>
+
+      <p>I ended up having to push and commit a ton of useless builds and fixes back and forth to our repository since I had to test between two computers. Next time I should definitely try and work on a separate branch so the other people don't have to deal with my hassles. At least all my code was separated off in its own folder though, so there shouldn't have been any conflicts between the game and networking parts.</p>
+
+      <img src="commits.png" />
+      <p class="caption">Woops</p>
+
+      <p>Surprisingly this time around, I don't think we had too many issues with Git. I think it's mostly the fact that almost all of us (minus Derek) had previous Git experience, and we were very careful with how and when we edited things. We tried to avoid merging as much as possible, and only commit and push one at a time, even reverting files if we have to. We should have broken up our sections into smaller bits and pieces to perhaps allow us to work on separate parts easier, but I think our repository management this time around was satisfactory.</p>
+
+      <p>The only exception was Derek, who isn't really a programmer by trade. All his files were transferred to us via USB, which was fine. Derek was put in a weird spot because of his lack of experience, and I'm sorry how we may have jumped the gun on starting up this programming-only project so early. Next summer I hope he'll be better prepared to tackle more programming. This was basically his first serious introduction to programming, and though you learn a lot from game jams, I wouldn't recommend starting a game jam off as your first programming assignment.</p>
+
+      <p>He definitely struggled a lot, not really understanding basic things like loops, classes, functions, and the like. We tried to give him some very basic things to do, like create a SoundManager to play all our sounds for us, as well as making the sounds through <a href="http://www.bfxr.net/">Bfxr</a>. Then we asked him to load some fonts for us, test it on a Pygame display, and to add some special effects like screen shake or fade.</p>
+
+      <p>He didn't get too far, nor accomplish most of his tasks, but that was expected. I hope he learned quite a bit and isn't too frustrated by programming. I've seen a lot of people lose motivation in game development after a difficult and stressful game jam. Most of what he did ended up being remade by the rest of us. His SoundManager used winsound, which was a very simple library for playing sounds through Windows... but it was too simple. You couldn't play more than one sound at once. I completely rewrote it to use Pygame's mixer. He never got screen shake and fade fully working, and Winston and Alex took over those roles respectively.</p>
+
+      <p>What he did, however, was establish for us a color and game theme for our Tetris game. During our jams, we always play music off of <a href="https://plug.dj/dashboard">plug.dj</a> on the TV screen. One particular song that ended up on our playlist was <a href="http://animatorexpo.com/mememe/">ME!ME!ME!</a>, a weird, erotic video that's been circulating the web recently. I saw it a while back on Reddit, and it was pretty fun watching it again and seeing how ridiculous it was. I didn't think much of it at the time, but the video would eventually be heavily incorporated into our game.</p>
+
+      <iframe src="//player.vimeo.com/video/113998423" width="650" height="365" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <p class="caption">Testing out Vimeo player, "ME!ME!ME!" feat. daoko and TeddyLoid
+
+      <p>The only "art asset" really to speak of in the game is our side banner that indicates the coming few blocks and the saved block. We have very exact dimensions we wanted to use, since everything in the game is measured precisely off of tile size. Our first iteration of the banner was a pink one that had a score indicator. Pink because, well, I'm not too sure. I think we wanted a "hot and spicy" color even before incorporating ME!ME!ME! We decided on using Comic Sans because it's bad, and Derek called it MaxFaggotry.png. Alrighty then.</p>
+
+      <img src="MaxFaggotry1.png"/>
+      <p class="caption">First banner image</p>
+
+      <p>It wasn't until a few iterations afterwards that Derek incorporated the ME!ME!ME! girl into the banner, and I felt it fit so, so well for us. I mean, it's definitely for sexy tastes, but the girl fit our four panels really well The head was set perfectly in place for the first box, followed by the chest for the second, the panty shot for the third, and the hands for the saved block. Pretty ingenious if you ask me.</p>
+      
+      <img src="MaxFaggotry2.png"/>
+      <p class="caption">Second image with the girl</p>
+
+      <p>I went in later and edited the banner a lot. We needed the banner to be pixel perfect, and Derek wasn't familiar enough with Photoshop to have perfectly aligned measurements. I did the dirty work of going in and fixing the errors, as well as making a ton of further changes, most noticeably adding the legs and hanging her head and breasts over the frames heheh. In addition, I blocked out the saved block to differentiate it from the next blocks, and I hid her hands underneath so that the saved description would be visible. After playing around with a huge variation of colors and thicknesses, we eventually came up with what we have now.</p>
+
+      <img src="MaxFaggotry.png"/>
+      <p class="caption">Final image</p>
+
+      <p>The original background for the grid was a plain, dull, dark gray. To add some more flair, I added in a white grid to distinguish the tiled boxes, and with the banner set in place, I then started playing around with gradients and colors for the background. After another bunch of different variations, we have now a faded white grid atop a pink to blue fade. Furthermore, keeping in line with the color theme, I recolored the blocks that Winston originally made to match closer to the girl's colors.</p>
+
+      <p>Back on the game side of things, Alex and Winston seemed to have a lot of trouble coordinating and writing out the code. I'm not too sure how their communication went or how the code base was looking because I was off in my own little world messing with network code. From what I understand, all the code was actually scrapped once on the end of Saturday. It was too messy to work with, and Alex/Winston thought it better to start from scratch than to try and work with it.</p>
+
+      <p>The main problem I believe stemmed from Alex not planning the code out properly, as he merely followed some tutorials and worked with whatever he had written for that. Winston attempted to work with what Alex coded up, but thought it was too difficult to work with. I guess we could blame lack of experience with Python as the cause. I think if Winston had been there from the start, this also wouldn't have happened. Having a second guy help design and talk ideas out with him could have prevented problems down the line.</p>
+
+      <p>I'm <a href="http://www.joelonsoftware.com/articles/fog0000000069.html">not a fan</a> of redoing work, especially so late into a jam. It's always taking a step back redoing what we already had, and we could have ended up further back than before the restart. Somehow though, our restart worked out fine, and we quickly got off to a smooth start again. By the night of Sunday, they had the game pretty much playable, and I had all my lobby connection code ready to go. I think Alex and Winston had a much better time coordinating and planning out the code when they sat down and thought about it more thoroughly. Now we were ready to combine all our code together.</p>
+
+      <p>Squashing our code together actually turned out to be very easy. I structured the networking code to handle the overall program. Integrating the game became just a matter of throwing Alex and Winston's gameboard initialization and update code into the Play state. Rather than difficult, the most tedious part of this process was simply converting the game code that ran from a main loop into an actual class. That basically entailed writing in self specifiers everywhere. After testing and fixing syntax errors here and there, this problem was easily fixed.</p>
+
+    </div>
+
+      <img src="easyGame.png"/>
+      <div class="mid">
+      <p class="caption">Easy game, easy life</p>
+      
+      <p>The rest of our combining was spent on me writing network code to update the gameboard between players. This involved sending the player's block grid to the opponent and sending updates upon losing the game or sending a line. With a little bit of direction and peer programming between Alex and I, we addressed these issues without a problem.</p>
+
+      <p>It was good that I told Alex to prep a gameboard to be ready to be sent from one side to another. After putting our code together, the next step was to draw the opponent's board. This too turned out to be quite simple, since it was just a matter of extending the currently drawn board by some extra columns and filling them in with the gameboard updates of the opponent. After fiddling around for a bit, we got multiplayer displayed and working without too much of a hitch.</p>
+
+      <p>At this point we were pretty happy that the basic components of the game were finished: working multiplayer with a playable game. However, we ended up doing a ton of polish and bug fixes after this point, even after the game jam was officially over. Winston and Alex worked on fixing game bugs and making the game run smoother. This involved making sure blocks don't make weird rotations outside of the inner grid and balancing the game so there was acceptable gravity and difficulty.</p>
+
+      <p>Winston and I were the ones to make the final edits after the game jam, which involved making a single player version of the game, adding a score indicator, looking at the responsiveness of the game, fixing more obscure bugs, and adding final touches. I really have to thank him for his hard work and motivation to polish off the game. This is probably the first game jam where I've left the game at a very satisfiable and good-looking state, and much of it was due to his work after the deadline of the jam.</p>
+
+      <p>Well, back to our other touchups, Derek on the other hand didn't really get much working, so he ended up doing miscellaneous tasks. His SoundManager ended up being rewritten by me and his banner fixed up by me. His attempts to create screen shake and fading effects were met with failure. He went on instead to make and find sounds for the game instead. For sound effects, he went and messed around with Bfxr to create a few for us. We ended up having to replace a couple of them and add some more, but he cut down some work for us.</p>
+
+      <p>As for the background soundtrack, originally Derek thought it would be a good idea to have a random background track playing upon startup. Using a random counter, players could hear any from a half dozen number of songs. This seemed like a pretty neat idea, except when I realized I had to push the code. The project ended up at a huge, bloated 200 MB. Now, if this was at school, this wouldn't be much of a problem. I could simply pull, delete the files, and then go on as usual. However, we were on my slow home Internet, so pulling would take a long time. By the time I made this change, I was working alone in the middle of the night.</p>
+
+      <p>I tried deleting and repulling the project from my other computer, but it seems like Git still keeps track of the changes, so even though the 200 MB wasn't currently in the repo, my other computer still had to take note of the addition. I wasn't too sure how to revert back my changes either without some fiddling around, so I decided the best decision at the time was simply to start a new repo up with all the songs removed. This wouldn't affect anyone else either, since they wouldn't be awake for a couple of hours. So now if you're wondering why we have two repos, that's the reason.</p>
+
+      <img src="repositories.png" />
+      <p class="caption">All these repos make me cry</p>
+
+      <p>On the last day, we mainly did play testing and more bug fixes. One major thing I wanted to add towards the end of the project was multi-input, allowing the player to move diagonally, rotate, hard drop, etc. at the same times. It seemed like a simple task of changing some if, elif, else statements to just if statements. The end result actually didn't lead to any breaking errors, but it did bring up a problem we didn't notice before: lag.</p>
+
+      <p>I'm not sure if it was a problem with multi-input itself, but we painfully then became aware of lag problems from keyboard input. For the longest time we couldn't figure out the reason why, until later that night I eventually fixed it. It actually wasn't a problem with multi-keys at all. Apparently the issue stemmed from trying to dynamically load images on the fly, rather than preload images from the gameboard constructor. I didn't think this was going to play a big issue since this was a small project, but reloading images every single loop seemed to put a huge strain on processing power.</p>
+
+      <p>I fixed the issue by having a preloaded image list, and art assets would be indices pointing of the list. This meant I also had to change how the gameboard was sent from one player to another, and I reduced the board size by using these indices rather than images. Once that change was made, the game ran ten times smoother resolved pretty much all our responsiveness issues.</p>
+
+      <p>The rest of our time was spent on small, miscellaneous features. We added a fade to incoming next blocks and to saved blocks. A timer now counts down to from the start of the game to give players time to ready themselves before playing. Usernames of other players are also displayed. We put a small pause when hitting the bottom, to give the player some time to react and place a block. We allowed players to hold down a key to keep on moving in that direction, instead of only allowing them to move one space. We also put in a trail behind the moving block to give it some permanence. And of course we put in screen shake, that happens when lines are sent over.</p>
+
+      <iframe width="650" height="366" src="//www.youtube.com/embed/AJdEqssNZ-U?rel=0" frameborder="0" allowfullscreen></iframe>
+      <p class="caption"><a  href="http://www.reddit.com/r/gamedev/comments/1t0jlc/vlambeers_jan_willem_nijman_the_art_of_screenshake/">Thanks Vlambeer</a></p>
+
+      <p>And that pretty much covers the whole development of the project I suppose. There isn't much more other than what I've already been repeating so far, how we continually made adjustments to various values and fixed minor bugs. I think we officially ended probably two days after the game jam, but all of us went home by the official end. We only finished up a few minor tasks online.</p>
+
+      <p>I suppose there's one thing to mention on my end, which was building the project. I used <a href="http://cx-freeze.sourceforge.net/">cx_Freeze</a> for that, but I had to scurry online to find an older version for Python 3.1. Not too difficult once I managed to make an executable once with it. It was partly a hassle though to continuously make new builds whenever we made a small change. Whatever, it's about as bad as the usual compile on C++.</p>
+
+      <p>Overall I'm really, really happy with how this jam went. This is probably the best project that came out of our local group of friends, and I daresay probably the most polished and complete game jam that I've been a part of overall. It was great meeting with Winston for the first time and hanging out with him. I think he's meshed very well with our group of odd friends. I'm really satisfied with the amount of effort and work we've put into the project, and I can only hope that our next project together will be as good. Granted, this Tetris idea was much simpler than our last few, but networking isn't something easy to just scoff at, and I'm proud of myself for getting that finished up to a usable standard.</p>
+
+    </div>
+
+    <hr>
+
+    <div id="footer"></div>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://maxrchung.com/projects/katanashoujo/play/" href="test.jnlp">
+    <information>
+        <title>Katana Shoujo</title>
+        <vendor>Max Chung</vendor>
+    </information>
+
+    <security>
+      <all-permissions/>
+    </security>
+
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.7+"
+            href="http://java.sun.com/products/autodl/j2se" />
+        <jar href="test.jar" main="true" />
+
+    </resources>
+
+    <applet-desc 
+         name="Katana Shoujo"
+         main-class="shit"
+         width="1280"
+         height="720">
+     </applet-desc>
+     <update check="background"/>
+</jnlp>
