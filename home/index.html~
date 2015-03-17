@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Max R. Chung</title>
-    <link rel="icon" href="resources/favicon.ico">
-    <link rel="shortcut icon" href="resources/favicon.ico">
+    <title>Home - Max R. Chung</title>
+    <link rel="icon" href="../resources/favicon.ico">
+    <link rel="shortcut icon" href="../resources/favicon.ico">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="resources/theme.css">
+    <link rel="stylesheet" type="text/css" href="../resources/theme.css">
   </head>
 
   <body>
     <div class="buttons">
       <table>
 	<tr>
-	  <td><a href="home" class="button selected">Home</a></td>
-	  <td><a href="blog" class="button">Blog</a></td>
-	  <td><a href="projects" class="button">Projects</a></td>
-	  <td><a href="about" class="button">About</a></td>
+	  <td><a href="../home" class="button selected">Home</a></td>
+	  <td><a href="../blog" class="button">Blog</a></td>
+	  <td><a href="../projects" class="button">Projects</a></td>
+	  <td><a href="../about" class="button">About</a></td>
 	</tr>
       </table>
     </div>
@@ -24,7 +24,7 @@
 
     <div class="mid">
       <h2>Hi World!</h2>
-      <p>I'm Max. Welcome to my personal website, where I'll be experimenting with web programming, hosting my projects, and rambling about my interests.</p>
+      <p>I'm Max. Some may know me as Wax Chug da Gwad. Welcome to my personal website, where I'll be experimenting with web programming, hosting my projects, and rambling about my interests.</p>
     </div>
 
     <hr>
@@ -32,71 +32,73 @@
     <div class="mid">
       <h2>Pinned</h2>
       <div class="focus">
-	<h2><a class="noDecoration" href="blog/jan2015/23">Holy Moly</a></h2>
-	<p>23 Jan. 2015</p>
-	<p>Hello, we meet again after a long break. I think I may have involved myself in too many things this quarter, and I'm now feeling the pretty steep backlash from everything. There's classes of course. Most of them haven't been too demanding, but I'm starting to build a backlog of work that I need to get to, and it just feels really crappy when I haven't been caught up where I need to be. In particular, I always try and do all my reading homework, even though I always hate doing reading. And when you hate doing your reading, you don't do your reading. And when you don't do your reading, you end up in the unfortunate state I'm in.</p>
+	<h2>Nearing the End of the Quarter</h2>
+	<p>4 Mar. 2015</p>
 
-	<p>The most demanding class is probably my Capstone project. I've been making a game with about half a dozen people since last quarter, and we'll be "finishing" the game by the end of this one. The pressure is on to develop the game, and to be honest, I think we're not doing as great as I'd like it to be. We're still fumbling around getting our main game mechanics to work even though some of us have been working on it for the entire last quarter. This quarter I think even more people on the team are dedicating their time to trying to fix it up and polish it, but I'm not so sure we're making better progress. I've pretty much been working on everything but the game itself: namely UI, a bit of networking for account login, and some graphical flairs.</p>
+	<p>Oh man, I missed the entire month of February. I feel a bit bad now not writing a monthly blog. Hey, in my defense, February's missing a few days alright... I've been busy the past week catching up on schoolwork. I'm at an okay state right now after finishing a couple things, so I decided to take some time out now to write a bit.</p>
 
-<p>In better news, my newly founded osu! club has been pretty awesome so far. We have a pretty steady/active half a dozen or so members, which I'm really happy for. I may write a post more about the logistics of the club, but eh... it isn't too terribly interesting or anything, so I'll probably hold off on that. These days, I haven't been playing as much osu! as I'd like though, and I think I've definitely regressed quite a bit. At the very least, the meetings with the club keeps me somewhat in shape. Check us out on our <a href="https://www.facebook.com/groups/osuuci/">Facebook group</a>!</p>
+	<p>Hmm, there's a lot to talk about. I guess I'll start off with what my current goals are. Well, I still have work I've gotta due for classes by the end of the quarter. That'll come first. A somewhat big homework assignment due for one class, an early final, and Capstone are what I have to worry about. Honestly, now that I'm looking at it, a lot of stuff.</p>
 
-	<p>Right now, I think my main time has been dedicated to my duties in the Video Game Development Club at UCI. I'm an officer of the club, and that's added a lot of responsibilities and tasks that I've had to manage. Every week I hold a weekly art jam and art workshop for the club, the former to casually hangout with artists in the club for a few hours and the latter to teach some digital/art concepts that I'm familiar with. Very recently, I basically destroyed my entire weekend working on our winter quarter game jam. It was difficult, exhausting, but very fun and very exciting to mentor and work with a small team to make something I'm honestly very proud of. Check it out <a href="http://maxrchung.com/projects/lefttodie/">here</a>!</p>
+	<p>I basically got done spending 24 hours working on networking labs nonstop. Really, really tough and tedious work, especially since I'm a bit sick right now. In retrospect I should have definitely started earlier, but hey, at least I finished everything. I want to take a small relaxing break from school right now, but I've got class work to worry about soon, so I'll have to get back in the groove of things quickly.</p>
 
-	<p>I'm also been involved with a VGDC project called Autumn. Unfortunately, because of all the above, I'm pretty much putting this as low as possible on my totem pole of tasks I need to do. I still try and make the weekly meetings, but I just haven't been able to put in as much as I should or probably could into the project. In retrospect, it was a bad idea to ever do two games at once, with this and my Capstone project. Next quarter though, I'll be freed from Capstone, so I can work 1000% on making Autumn as good as I can. Some preliminary development background can be viewed <a href="http://maxrchung.com/projects/autumn/">here</a>.</p>
+	<p>Outside of academics, I definitely want to finish my <a href="https://osu.ppy.sh/s/276335">osu! song</a> that I've been making on and off over the quarter. It's a space jam remix of the Baccano! opening.</p>
 
-	<p>And last but not least! Blizzard internships! Right after writing and uploading this blog, I'll be immediately trying to finish all of my Blizzard applications. Should I be doing homework? Maybe. Should I be working on X project? Possibly, but screw it! One thing at a time, and I want to knock out Blizzard as soon as possible. I'll be applying to mostly software positions and QA. We'll see how this goes.</p>
+	<iframe width="650" height="366" src="https://www.youtube.com/embed/M4oKf32eiIo?rel=0" frameborder="0" allowfullscreen></iframe>
+	<p class="caption">"BARKLEYNO" - Quad City DJs vs Paradise Lunch, mixed by GARticuno</p>
 
-	<p>Alright, and let's not forget about music here. There's a ton of stuff I collected over the month, especially since Comiket 87 was around the corner, so that came along with a bunch of albums that I'm loving. And in two weeks, I'm really, really, really looking forward to the upcoming Rib album, with a new MikitoP title song.</p>
+	<p>I actually finished a first draft of everything a while back, but after some feedback, I decided to half the slider speed, which required going through the entire map and fixing everything. Not fun stuff. Making a beatmap as I've learned is very tedious and time consuming, but definitely fun. I'd love to do a beatmap every quarter now, and explore more interesting things like storyboard.</p>
 
-	<iframe width="650" height="366" src="//www.youtube.com/embed/h-zT4g2U0Uc?rel=0" frameborder="0" allowfullscreen></iframe>
-	<p class="caption">Rib's 3rd album!</p>
+	<p>This song will be part of our club's quarter compilation, which'll feature songs that the osu! UCI club has been working on throughout the quarter. I'm really happy with the progress everyone's made on their maps, or even just satisfied with the fact that everyone's making maps in general. We should hopefully have maybe half a dozen somewhat complete songs. Combining everything will probably be a bit tricky, but definitely doable with some fiddling around.</p>
 
-	<p>I probably won't get through everything I've picked up, but I'll try my best to talk about some of the better pickups I've enjoyed. First up, a new <a href="http://utaite.wikia.com/wiki/Majico">Majico</a> album is coming! Yay! I've been following her for a while. I really like her voice, and I really like her MikitoP collabs both as cover and as a duo singers. I've listened to this new MikitoP song to death now since I've had MikitoP withdraw.</p>
+	<p>I want to say just overall that I'm really happy with how the club's grown over the quarter. I personally haven't done too much or outreached for the club. I don't think I'm the greatest of leaders or promoters, but a lot of our new members have stepped up over the quarter to help create a really awesome environment. Thank you all, and cheers to this great club! We're even on <a href="http://www.reddit.com/r/osugame/comments/2wkee3/i_present_to_you_the_osu_club_at_uc_irvine_pls_no/">reddit</a>!</p>
 
-	<iframe width="650" height="366" src="//www.youtube.com/embed/-lvxUx_4HiU?rel=0" frameborder="0" allowfullscreen></iframe>
-	<p class="caption">New MikitoP and Majico song!</p>
+	<img class="widthConstrain" src="../blog/mar2015/4/osuuci.jpg" />
+	<p class="caption">Official club photo</p>
 
-	<iframe width="650" height="366" src="//www.youtube.com/embed/whqi5rKj4zM?rel=0" frameborder="0" allowfullscreen></iframe>
-	<p class="caption">XFD of new album</p>
+	<p>Besides that, I guess I always have some more indepth stuff to talk about for my VGDC and Capstone projects. But I don't want to go into those here. They're probably better off left in the projects post-mortem sections. Hmm, I suppose I'll talk a bit about my Spring break plans.</p>
 
-	<iframe width="650" height="366" src="//www.youtube.com/embed/IlMw6vNUoZc?rel=0" frameborder="0" allowfullscreen></iframe>
-	<p class="caption">An older song with a really lovely duo by the two</p>
+	<p>This break is going to be short, pretty much 1 week only. I'm gonna host a local game jam with my friends, so that'll take up one weekend. I have a lot of things I want to do but that I probably won't get to. The biggest one will probably be setting up an official osu! UCI website for us. Doesn't have to be anything fancy, but it'll be good to get our name out there. If possible, I want to get that done 100%. And... I suppose I'll get back to trying to write some more project background/post-mortems. That should be way more than enough to occupy me.</p>
 
-	<p>I found a new producer, <a href="http://vocaloid.wikia.com/wiki/Nishizawasan-P_%28TOKOTOKO%29">TOKOTOKO</a> that I like. He's a little too uh, upbeat and happy go lucky, if that's the right term to use, for me, but I when I'm in the mood, I'll like his music none the less.</p>
+	<p>Finally, I'll gloss over some music I got over the past month or two. I think the biggest thing I picked up was definitely the Rib album. Lots of awesome covers, but I kind of just ignored everything and listened to the new MIkitoP song "Akaito" to death. I'm honestly pretty sick of it now, but then they had to just go an release a PV for it too recently and now I've downloaded a bunch of other utaite covers as well. Awesome, I guess.</p>
 
-	<iframe width="650" height="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/185563623&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-	<p class="caption">Song from TOKOTOKO's C87 album</p>
+	<iframe width="650" height="366" src="https://www.youtube.com/embed/s6vG9i5e0R4?rel=0" frameborder="0" allowfullscreen></iframe>
+	<p class="caption">"Akaito" ft. Rib</p>
 
-	<p>Kano also released an album. I liked it upon hearing the XFD, but when I actually got it, I guess I was a little disappointed. I'm not sure, maybe I'm just not into some of the genres or the music... or that all my song names got messed up, but regardless, I think it's pretty good. Kano's has always been hit and miss for me I suppose. I'm not particularly a fan of her more cutesy stuff or cutesy stuff in general I guess.</p>
-      
-	<img class="widthConstrain" src="blog/jan2015/23/kano.png" />
-	<p class="caption">Welp</p>
+	<iframe width="650" height="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/189343675&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+	<p class="caption">Another song on the Rib album that I like</p>
 
-	<iframe width="650" height="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187463373&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-	<p class="caption">This whoo song is probably my favorite out of the album</p>
+	<iframe width="650" height="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193979602&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+	<p class="caption">"Akaito" ft. 620</p>
 
-	<p>Next up is <a href="http://utaite.wikia.com/wiki/Chano">Chano</a>. She has a pretty interesting background. Most of all her covered songs and albums are of <a href="http://vocaloid.wikia.com/wiki/40meterP">40mP</a> songs because, if I can trust this <a href="http://ofurotaimu.dreamwidth.org/134705.html">post</a>, she's actually married to 40mP. She has a really nice steady voice that I like listening to, and I think paired with 40mP's upbeat songs, makes an awesome combo. Unfortunately, get ready to sit through a dozen songs that pretty much sound kind of pretty much the same. So don't expect a lot of variety with her albums. The entirety of the album sounds like a pot of the same stuff throughout, which, depending on my mood, is a good and bad thing.</p>
+	<p>Also of good news is that the first Persona 5 PV came out recently. I'm not a huge player of Persona. I've played a bit of 3 but never beat it. But I'm still jumping on the hype train. The PV is so sick and the trailer song is absolutely amazing. I totally want to beatmap it. Oh yeah, and there's a space jam of it too that's likewise amazing.</p>
 
-	<iframe width="650" height="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/185111869&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-	<p class="caption">"Berry," title song of her C87 <em>Berry</em> album</p>
+	<iframe width="650" height="366" src="https://www.youtube.com/embed/oc_9r4wifFc?rel=0" frameborder="0" allowfullscreen></iframe>
+	<p class="caption">Am considering buying a console for this... </p>
+	<p class="caption">...but PC master race, maybe I'll just watch a let's play</p>
 
-	<iframe width="650" height="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/185111875&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-	<p class="caption">Another song from her album, just stuck out to me for no particular reason</p>
+	<iframe width="650" height="366" src="https://www.youtube.com/embed/IxR7r-qIeIQ?rel=0" frameborder="0" allowfullscreen></iframe>
+	<p class="caption">I'm going to edit in Barkley's face into the trailer and beatmap this song I swear</p>
 
-	<p>Next we'll switch over to different territory. I don't follow that much Touhou music, but I do try and keep up with a few select circles/producers in the Touhou scene. One of them in particular is <a href="http://en.touhouwiki.net/wiki/ShibayanRecords">ShibayanRecords</a>. Their style changes all the time, so I don't even know what to think of them as a whole. It's always pretty much hit and miss with each album. Their new album just sounds... real funky.</p>
-	
-	<iframe width="650" height="366" src="//www.youtube.com/embed/Iqc7Fm3zaYE?rel=0" frameborder="0" allowfullscreen></iframe>
-	<p class="caption">Track #2</p>
+	<p>I haven't been keeping up on a lot of utaite/NND stuff, mainly because the few songs I've picked up during this time were really, really good. Akaito's been keeping me entertained for pretty much the last month, and I still like it. I picked up the new fhana album, but I don't know, I've kind of lost interest in them. The only song that I've really liked  is a new song by sntb, a relatively unknown producer.</p>
 
-	<p>I also follow <a href="http://en.touhouwiki.net/wiki/FELT">FELT</a> to a fair degree, but man, I really don't know what to say about them. I'm just a huge disfan of bad English pronunciation, so I really struggle with liking some of their songs that I would otherwise would like without vocals.</p>
-	
-	<iframe width="650" height="366" src="//www.youtube.com/embed/DZgGQboLTm4?rel=0" frameborder="0" allowfullscreen></iframe>
-	<p class="caption">Case in point</p>
+	<iframe width="650" height="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193002665&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+	<p class="caption">"Weeping Train" - sntb ft. nkz</p>
 
-	<p>Finally, to top everything off, let's jump into a bit odder territory. I've been a long time follower of <a href="http://electrocutica.com/">ELECTROCUTICA</a>. They just produce some really interesting and, I don't even know, awesome stuff. I grow tired of them all time, but the more I listen to them, the more I like them. And now I'm revisiting their album, and I just kind of like it even more now. I don't know, it like grows on and off you at the same time.</p>
+	<p>What's funny though is that I have picked up a bunch of songs from osu! I love the sessions we hold together because I get exposed to everyone's tastes and music, a lot of which I end up liking.</p>
 
-	<iframe width="650" height="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187466701&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-	<p class="caption">"Contrail" from <em>Transience</em></p>
+	<iframe width="650" height="488" src="https://www.youtube.com/embed/OAsxFb_Kec0?rel=0" frameborder="0" allowfullscreen></iframe>
+	<p class="caption">"Buriki no Dance" - Hinata Electric Works ft. MARiA</p>
+
+	<iframe width="650" height="366" src="https://www.youtube.com/embed/-x_M76m-ayU?rel=0" frameborder="0" allowfullscreen></iframe>
+	<p class="caption">"Omega Rhythm" - UPLIFT SPACE</p>
+
+	<iframe width="650" height="366" src="https://www.youtube.com/embed/VkjtPz47UQs?rel=0" frameborder="0" allowfullscreen></iframe>
+	<p class="caption">Dammit, I haven't been able to pass this song yet</p>
+
+	<iframe width="650" height="366" src="https://www.youtube.com/embed/wNtKiB4cYas?rel=0" frameborder="0" allowfullscreen></iframe>
+	<p class="caption">But I did finally beat this one</p>
+
+	<p>Alright, I'm tired of typing. See you all soon.</p>
       </div>
     </div>
 
