@@ -49,6 +49,8 @@ hr {
     background-color: black;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
     border: 0px;
 }
 
@@ -113,6 +115,8 @@ img {
     background-color: black;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
     border: 0px;
 }
 

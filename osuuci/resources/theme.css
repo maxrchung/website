@@ -5,38 +5,64 @@ html {
     width: 100%;
     height: 100%;
     overflow-y: scroll;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div.buttons
+{
+    height: 100%;
+    width: 100%;
 }
 
 div.buttons > table {
     border-collapse: separate;
-    border-spacing: 10px;
+    border-spacing: 0.5em;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0px;
-    margin-bottom: 8px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 div.buttons a.button {
     display: block;
     text-align: center;
-    text-decoration: none;
-    font-size: 24px; 
-    font-weight: bold;
-    line-height: 50px;
-    color: black;
-    width: 155px;
-    height: 50px;
-    background-color: white;
-    border-radius: 5px;
-    border: 2px solid white;
+    width: 5em;
+    height: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: none;
+    border-style: solid;
+    border-width: 0.15em;
+    border-color: none;
+    border-radius: 100%;
+    border-color: transparent;
 }
 
 div.buttons a.selected {
-    border: 2px solid black;
+    border-color: #d7eff5;
 }
 
 div.buttons a.button:hover {
-    border: 2px solid black;
+    border-color: #d7eff5;
+}
+
+div.links
+{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+
 }
 
 #footer {
@@ -46,7 +72,7 @@ div.buttons a.button:hover {
 hr {
     height: 2px;
     width: 700px;
-    background-color: black;
+    background-color: white;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
@@ -58,6 +84,7 @@ h2 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: -20px;
+    color: black;
 }
 
 p {
@@ -65,6 +92,7 @@ p {
     line-height: 24px;
     padding-top: 4px;
     padding-bottom: 4px;
+    color: black;
 }
 
 .mid {
@@ -76,7 +104,7 @@ p {
 
 .mid iframe {
     display: block;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 5px;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -86,7 +114,7 @@ p {
 .mid div.player {
     display: block;
     width: 650px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 5px;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -95,7 +123,6 @@ p {
 img {
     display: block;
     text-align: center;
-    border: 2px solid black;
     border-radius: 5px;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -112,7 +139,7 @@ img {
 .mid hr {
     height: 1px;
     width: 650px;
-    background-color: black;
+    background-color: transparent;
     margin-left: auto;
     margin-right: auto;
     margin-top: 16px;
@@ -150,7 +177,6 @@ img {
     display: block;
     width: 100px;
     height: 100px;
-    border: 2px solid black;
     border-radius: 5px;
 }
 
@@ -266,6 +292,22 @@ img.heightConstrain {
     height: 650px;
 }
 
+img.banner {
+    position: absolute;
+    height: 85%;
+    top:0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+}
+
+div.buttons img {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 ul {
     font-size: 19px;
     line-height: 24px;
@@ -273,7 +315,7 @@ ul {
 }
 
 .focus {
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 5px;
     margin: 25px -11px 30px -11px;
     padding: 0px 9px 0 9px;
@@ -285,10 +327,6 @@ ul {
 
 .focus > p:last-child {
     margin-bottom: 5px;
-}
-
-.focus img {
-    margin-left: -2px;
 }
 
 #footer {
