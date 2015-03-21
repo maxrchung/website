@@ -29,7 +29,7 @@
 	  <tr>
 	    <td><a href="https://www.facebook.com/groups/osuuci/" class="button"><img alt="Facebook" title="Facebook" src="resources/iconFacebook.png"/></a></td>
 	    <td><a href="https://twitter.com/osuUCI" class="button"><img alt="Twitter" title="Twitter" src="resources/iconTwitter.png"/></a></td>
-	    <td><a href="mailto:osuuci@gmail.com" class="button"><img alt="Email" title="Email" src="resources/iconGMail.png"/></a></td>
+	    <td><a href="mailto:osuuci@gmail.com" class="button"><img alt="Mail" title="Mail" src="resources/iconGMail.png"/></a></td>
 	    <td><a href="https://drive.google.com/drive/u/0/#folders/0B9f8l7Lh8KmtUlB0S2RQZXowYlU" class="button"><img alt="Drive" title="Drive" src="resources/iconGoogleDrive.png"/></a></td>
 	    <td><a href="https://osu.ppy.sh/u/osuUCI" class="button"><img alt="osu!" title="osu!" src="resources/iconOsu.png"/></a></td>
 	  </tr>

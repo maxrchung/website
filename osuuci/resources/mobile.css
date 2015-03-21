@@ -7,7 +7,7 @@ html {
     overflow-y: scroll;
     margin: 0;
     padding: 0;
-    font-size: 200%;
+    font-size: 62.5%;
 }
 
 body {
@@ -30,24 +30,29 @@ div.buttons > table {
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
-    border: 2px solid black;
 }
 
 div.buttons a.button {
     display: block;
     text-align: center;
-    color: white;
     width: 5em;
     height: 5em;
     margin-left: auto;
     margin-right: auto;
     background-color: none;
+    border-style: solid;
+    border-width: 0.15em;
+    border-color: none;
+    border-radius: 100%;
+    border-color: transparent;
 }
 
 div.buttons a.selected {
+    border-color: #d7eff5;
 }
 
 div.buttons a.button:hover {
+    border-color: #d7eff5;
 }
 
 div.links
@@ -80,7 +85,7 @@ h2 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: -20px;
-    color: white;
+    color: black;
 }
 
 p {
@@ -88,7 +93,7 @@ p {
     line-height: 24px;
     padding-top: 4px;
     padding-bottom: 4px;
-    color: white;
+    color: black;
 }
 
 .mid {
@@ -135,7 +140,7 @@ img {
 .mid hr {
     height: 1px;
     width: 650px;
-    background-color: white;
+    background-color: transparent;
     margin-left: auto;
     margin-right: auto;
     margin-top: 16px;
@@ -290,7 +295,7 @@ img.heightConstrain {
 
 img.banner {
     position: absolute;
-    width: 85%;
+    height: 85%;
     top:0; bottom: 0; left: 0; right: 0;
     margin: auto;
 }
@@ -339,5 +344,5 @@ a:visited {
 
 a.noDecoration {
     text-decoration: none;
-    color: white;
+    color: black;
 }
