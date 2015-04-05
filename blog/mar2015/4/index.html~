@@ -3,20 +3,20 @@
 <html>
   <head>
     <title>Mar. 2015 - Max R. Chung</title>
-    <link rel="icon" href="../../resources/favicon.ico">
-    <link rel="shortcut icon" href="../../resources/favicon.ico">
+    <link rel="icon" href="../../../resources/favicon.ico">
+    <link rel="shortcut icon" href="../../../resources/favicon.ico">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="../../resources/theme.css">
+    <link rel="stylesheet" type="text/css" href="../../../resources/theme.css">
   </head>
 
   <body>
     <div class="buttons">
       <table>
 	<tr>
-	  <td><a href="../../home" class="button">Home</a></td>
-	  <td><a href="../../blog" class="button selected">Blog</a></td>
-	  <td><a href="../../projects" class="button">Projects</a></td>
-	  <td><a href="../../about" class="button">About</a></td>
+	  <td><a href="../../../home" class="button">Home</a></td>
+	  <td><a href="../../../blog" class="button selected">Blog</a></td>
+	  <td><a href="../../../projects" class="button">Projects</a></td>
+	  <td><a href="../../../about" class="button">About</a></td>
 	</tr>
       </table>
     </div>
@@ -24,7 +24,7 @@
     <hr>
 
     <div class="mid">
-      <h2><a class="noDecoration" href="4">Nearing the End of the Quarter</a></h2>
+      <h2>Nearing the End of the Quarter</h2>
       <p>4 Mar. 2015</p>
 
       <p>Oh man, I missed the entire month of February. I feel a bit bad now not writing a monthly blog. Hey, in my defense, February's missing a few days alright... I've been busy the past week catching up on schoolwork. I'm at an okay state right now after finishing a couple things, so I decided to take some time out now to write a bit.</p>
@@ -44,7 +44,7 @@
 
       <p>I want to say just overall that I'm really happy with how the club's grown over the quarter. I personally haven't done too much or outreached for the club. I don't think I'm the greatest of leaders or promoters, but a lot of our new members have stepped up over the quarter to help create a really awesome environment. Thank you all, and cheers to this great club! We're even on <a href="http://www.reddit.com/r/osugame/comments/2wkee3/i_present_to_you_the_osu_club_at_uc_irvine_pls_no/">reddit</a>!</p>
 
-      <img class="widthConstrain" src="4/osuuci.jpg" />
+      <img class="widthConstrain" src="osuuci.jpg" />
       <p class="caption">Official club photo</p>
 
       <p>Besides that, I guess I always have some more indepth stuff to talk about for my VGDC and Capstone projects. But I don't want to go into those here. They're probably better off left in the projects post-mortem sections. Hmm, I suppose I'll talk a bit about my Spring break plans.</p>

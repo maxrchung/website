@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>POKEMANS - Max R. Chung</title>
+    <link rel="icon" href="../../resources/favicon.ico">
+    <link rel="shortcut icon" href="../../resources/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../../resources/theme.css">
+  </head>
+
+  <body>
+    <div class="buttons">
+      <table>
+	<tr>
+	  <td><a href="../../home" class="button">Home</a></td>
+	  <td><a href="../../blog" class="button">Blog</a></td>
+	  <td><a href="../../projects" class="button selected">Projects</a></td>
+	  <td><a href="../../about" class="button">About</a></td>
+	</tr>
+      </table>
+    </div>
+    
+    <hr>
+    
+    <div class="mid">
+      <h2><em>Left to Die</em></h2>
+      <p>Last edited 23 Jan. 2015</p>
+    </div>
+
+    <img class="noBorder" src="banner.png" />
+
+    <div class="mid">
+      <h2>Info</h2>
+      <p>POKEMANS is basically Pokemon with naked people. It is a TCP networked version of Battle Frontier/Battle Tower/Battle Factory where players, er, sorry, I mean rich men, draft 3 different naked men and fight another player with them. Or something like that. Also, I use the term "TCP networked" very loosely because I'm pretty sure I try catched basically all my network code to ignore errors. Anyways, as of now, the game is not yet complete. I think we want to polish it up and then release it a bit later. WIP.</p>
+
+      <ul>
+	<li>Made by: Max Chung, Alex Lewis, Winston Liang, Victor Stolle, Carl Glahn, Vince Chen, Derek Leung</li>
+	<li>Download (pre-pre-alpha-client-build): <a href="POKEMANSCLIENT.rar" download>POKEMANSCLIENT.rar</a> (7.1 MB)</li>
+	<li>Repository: <a href="https://github.com/shrackner/POKEMAN">POKEMAN</a></li>
+      </ul>
+
+      <h2>Background</h2>
+      <p>To be written at a later date...</p>
+
+    </div>
+
+    <hr>
+
+    <div id="footer"></div>
+  </body>
+</html>

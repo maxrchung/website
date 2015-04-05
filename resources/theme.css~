@@ -287,6 +287,10 @@ ul {
     margin-bottom: 5px;
 }
 
+.mid > .focus > img {
+    margin-left: -2px;
+}
+
 #footer {
     height: 80px;
 }

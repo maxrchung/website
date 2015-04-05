@@ -5,6 +5,10 @@ html {
     width: 100%;
     height: 100%;
     overflow-y: scroll;
+    background-image: url("background.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 1080px 1080px;
 }
 
 div.buttons > table {
@@ -26,9 +30,9 @@ div.buttons a.button {
     color: black;
     width: 155px;
     height: 50px;
-    background-color: white;
+    background-color: None;
     border-radius: 5px;
-    border: 2px solid white;
+    border: 2px solid Transparent;
 }
 
 div.buttons a.selected {
@@ -99,7 +103,6 @@ img {
     border-radius: 5px;
     margin-top: 25px;
     margin-bottom: 25px;
-    margin-left: -2px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -287,8 +290,9 @@ ul {
     margin-bottom: 5px;
 }
 
-.mid > .focus > img {
-    margin-left: -2px;
+.qfix {
+    position: relative;
+    margin-left: -4px;
 }
 
 #footer {
