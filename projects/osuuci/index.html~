@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>POKEMANS - Max R. Chung</title>
+    <title>osu! UCI - Max R. Chung</title>
     <link rel="icon" href="../../resources/favicon.ico">
     <link rel="shortcut icon" href="../../resources/favicon.ico">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
@@ -23,24 +23,18 @@
     <hr>
     
     <div class="mid">
-      <h2><em>Left to Die</em></h2>
-      <p>Last edited 23 Jan. 2015</p>
+      <h2><em>osu! UCI</em></h2>
+      <p>Last edited 5 Apr. 2015</p>
     </div>
 
-    <img class="noBorder" src="banner.png" />
-
     <div class="mid">
+      <img class="noBorder" src="logo.png"/>
+      
       <h2>Info</h2>
-      <p>POKEMANS is basically Pokemon with naked people. It is a TCP networked version of Battle Frontier/Battle Tower/Battle Factory where players, er, sorry, I mean rich men, draft 3 different naked men and fight another player with them. Or something like that. Also, I use the term "TCP networked" very loosely because I'm pretty sure I try catched basically all my network code to ignore errors. Anyways, as of now, the game is not yet complete. I think we want to polish it up and then release it a bit later. WIP.</p>
-
+      <p>A few friends and I started an osu! club in the University of California, Irvine back in November of 2014. Since then, we've put in a ton of work to keep it running and expanding its members. Check out our <a href="http://osuuci.com">site</a> (that I worked on, of course!) for more info. </p>
       <ul>
-	<li>Made by: Max Chung, Alex Lewis, Winston Liang, Victor Stolle, Carl Glahn, Vince Chen, Derek Leung</li>
-	<li>Download (pre-pre-alpha-client-build): <a href="POKEMANSCLIENT.rar" download>POKEMANSCLIENT.rar</a> (7.1 MB)</li>
-	<li>Repository: <a href="https://github.com/shrackner/POKEMAN">POKEMAN</a></li>
+	<li>Repository: <a href="https://github.com/shrackner/osuUCI">osuUCI</a></li>
       </ul>
-
-      <h2>Background</h2>
-      <p>To be written at a later date...</p>
 
     </div>
 
