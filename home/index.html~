@@ -32,67 +32,55 @@
     <div class="mid">
       <h2>Pinned</h2>
       <div class="focus">
-	<h2><a class="noDecoration" href="../blog/apr2015/5">osu! is Love, osu! is Life</a></h2>
-	<p>5 Apr. 2015</p>
-	
-	<p>Yeah so I basically spent the last couple of weeks knee deep in osu! UCI. Last quarter we found our bearings for the club. This quarter, we're going to try and improve heavily everywhere, from infrastructure to social media to outreach and advertising. Since I have a lot more technical knowledge than the other guys, I've been handling most of the tech that I can. For pretty much all of my break I've been making and maintaining a <a href="http://osuuci.com">website</a> for the club. It's up and running and relatively complete, but we still have a lot we'd like to add to it.</p>
+	 <h2><a class="noDecoration" href="http://maxrchung.com/blog/jun2015/3">Spring Quarter Almost Over</a></h2>
+      <p>3 Jun. 2015</p>
 
-	<p>We want a database section to hold all our created beatmaps and compilations. We'll probably jam any photos and videos we have of the club in there as well. And we'd also like to have an events/calendar page with announcements probably similarly jammed in there somewhere as well. I don't know. We're still thinking and planning what we'd like.</p>
+      <p>Wow, welcome back. A lot's happened so far, and I've been busy with a lot of things. The biggest news to date is that I've been accepted for a summer internship for Blizzard! I'm definitely excited and a bit apprehensive at the same time. There're a lot of concepts and applications I'll be brushing up on. I'll be busy studying in the next couple weeks and then spending all the way to September at Blizzard.</p>
 
-	<p>Ironically, the hardest part about making the site wasn't anything code related, but actually setting up the background. To make the background, I made 16 osu!-like combos from scratch and then made overlapping tiles out of them. Quite tedious work that took a day by itself. But it looks good, I hope! It's also the background of this website right now, though greyed out.</p>
-      </div>
-    </div>
+      <p>As for other programming news, I've updated some sections on the projects on the things I've been working on so far. I was part of this quarter's VGDC game jam, where we made <a href="http://maxrchung.com/projects/minutestomidnight/">Minutes to Midnight</a>. I've returned for a bit to work on <a href="http://maxrchung.com/projects/blueballs/">Blue Balls</a>, trying to add some more flair to it. Unfortunately, I haven't been able to find much time to work on programming projects at all because I've been doing a lot of stuff related to osu! UCI.</p>
+      <img src="http://maxrchung.com/blog/jun2015/3/minutes.png"/>
+      <p class="caption">Had a great time making this!</p>
       
 
-    <img src="http://osuuci.com/resources/background.jpg"/>
+      <p>The osu! UCI <a href="http://osuuci.com/officers">officers</a> and I spent a huge amount of time improving what we could of the club. We're a lot more active on social media, branching out to <a href="https://twitter.com/osuUCI">Twitter</a> and reddit on a regular basis and centering most of our information onto our <a href="http://osuuci.com">site</a>. We started streaming on <a href="http://www.twitch.tv/osuuci">Twitch</a>, broadcasting our weekly Saturday sessions.</p>
 
-    <div class="mid">
-      <p class="caption">The background!</p>
-      <div class="focus">
-	<p>I also set up a Mumble server (Murmur?) for the club, which my hope will be to replace our Skype group. It's a little bit more complicated and less popular than Skype, and it doesn't have chat history logs, but I think I prefer it overall. There's a lot more admin control, for making separate channels, restricting access, and other customizations. And for the typical user, it's easier to connect to than having to go through hoops adding people through Skype to get into the group.</p>
+      <p>We spent time making flyers for the club and hanging them around campus. We started to pay less attention to these later on in the quarter as they kept either getting rained on or removed, but we did get a few people interested who saw them, and it's always good to get our name out there. Out of the officers, I'm the only one with some digital art/design knowledge, so I was responsible for designing and drawing them. Justin and Brad helped print and set them up around campus.</p>
+      <img class="heightConstrain" src="http://maxrchung.com/blog/jun2015/3/flyer.png"/>
+      <p class="caption">Our flyer</p>
 
-	<img src="../blog/apr2015/5/mumble.png"/>
-	<p class="caption">Join us sometime! Login info: <a href="http://osuuci.com/mumble">here</a></p>
+      <p>We wanted to sell charms this quarter, so we collaborated with <a href="http://kunknee-art.tumblr.com/">Kunny</a> and borrowed his past art to make them. I ended up having to do a lot of work to add the "osuuci" underneath and position everything properly. Justin helped out with logistics and buying them. Things got kind of complicated when we realized we needed to buy extra clips and strings to loop the charms around something, and things got even weirder when we realized the clips didn't fit. But after some manual labor of twisting and plying, things turned out alright.</p>
 
-	<p>I spent a lot of time making the hit circle icons on the site, and then doing the administrative work of updating all the info on our like, what, half a dozen or so social media sites? Ugh, and we're probably going to want to add a few more in the future too, with maybe a Youtube account for vlogs, and I don't know, a plug.dj and who knows what else.</p>
+      <img src="http://maxrchung.com/blog/jun2015/3/charms.png"/>
+      <p class="caption">1 of 5 different kinds of charms</p>
 
-	<p>There's a lot in general we're probably going to want to do in the future. Advertising with flyers, which are probably going to go up very soon, probably by next week. We want to do a barbecue with our members sometime, though I'm a bit worried of costs and stuff since we haven't made any money yet. I'll be setting up a PayPal account in the near future to hopefully receive <a href="http://osuuci.com/donations">donations</a> here and there. We're looking into merchandise to sell, probably a small charm this time with our logo. And we're looking to outreach to <a href="http://www.reddit.com/r/osugame">reddit</a> and other people. A lot of stuff to keep track of!!</p>
+      <p>Similar to last quarter, we also wanted to make beatmaps again. With everything else going on, we weren't able to spend too much time on beatmaps, but we were able to squeeze a map or two out by the end of the quarter. Different this time though, I asked my friend if he was interested in making a song for us, and he said sure. Out came <a href="https://osu.ppy.sh/s/319262">"Silicon Heart"</a>. Two of us in the club then mapped the beatmap, while I provided the storyboard and, along with another artist, drew the background. I have to say storyboarding and storyboard scripting was a very interesting process, and I'm definitely excited to do more of it.</p>
 
-	<img class="qfix" src="../blog/apr2015/5/brad.png"/>
+      <img class="widthConstrain" src="http://maxrchung.com/blog/jun2015/3/siliconheart.png"/>
+      <p class="caption">Our background art</p>
 
-	<p class="caption">Brad please don't die</p>
-	<p>I'm really thankful for the officer team for putting in a lot of their time into the club. They picked up a lot of the slack and tasks that I'd rather not deal with haha. In particular, Jimmy's been handling the Twitch setup and is planning our outreach and activities at the moment, so I'll have to thank him much for that. Justin and Brad don't have as much experience as the other two of us in technical knowledge or administration. But they're freshman afterall, so I won't put any blame necessarily on them. If anything, I think of them as the interns of our little group, and they're learning overtime how to manage and build club for the future.</p>
+      <p>The biggest thing to come out of all of this was our tournament. Around the start of May, we helped host a tournament as part of the Press Start LAN. Really, really fun and exhausting stuff. We spent weeks in preparation with rules, brackets, and maps carefully lined up. We had a smaller turnout than expected, but because we chose Swiss for the first half of our tournament, everyone got to play a lot of rounds regardless and we had a exciting, surprising tournament. Once again, thanks everyone for coming or helping. If you want to read more about its logistics, the tournament page is available <a href="http://osuuci.com/tournaments/pressstart">here</a>.</p>
 
-	<p>That said though, they're definitely more knowledgeable about osu! itself than I am. They'll probably be responsible for being beatmap editor mentors and handling the final beatmap compilation at the end of the quarter. They'll also handle odd tasks here and there, though I'll probably quality check everything or touch up what they've done if I have to.</p>
+      <p>Those were basically all the bigger events I was a part of or in charge of. We're planning on hosting a 10 week summer league, managed mostly by other officers as I'll be busy with my internship. Aaron also involved with building a custom two-key keyboard. Overall a really crazy quarter with a lot of time spent. Oh yeah, somehow in the middle of everything I got the officers help in picking out parts and building a desktop. I love it. It ended up being mostly other people helping me, but I'm really happy with the investment.</p>
 
-	<p>At the end of the day, this group as a whole is awesome to work with. We're all really, just, chill I guess is the right term, and just fun to hang around as a group of friends. None of us have been really picky or stubborn to deal with, and I think it's always been productive when we hold discussions and bring up new ideas. I think everyone's really motivated and dedicated to do their best for both the club and the game, and gung ho-ness is contagious.</p>
+      <img src="http://maxrchung.com/blog/jun2015/3/desktop.png"/>
+      <p class="caption">In the middle of setup</p>
 
-	<p>I'll finish off with a few pieces of musics that I've been recently listening to. I haven't been listening to much and looking for much at my own admission, busy with other things and content with whatever I have at the moment. There have been a couple pretty big utaite albums to be released, by <a href="http://utaite.wikia.com/wiki/Majiko">Majico</a> and <a majihref="http://utaite.wikia.com/wiki/Itou_Kashitarou">Itou Kashitarou</a>, that I haven't picked up, but that I have songs from. I've been also playing and listening to odd songs from osu! here and there. First one I'll start with is a Majico song released recently by buzzG. Love the guitar solo at the end:</p>
+      <p>I'll finish off with some songs. Here, I'll just point to some great osu! songs I've picked up recently. I haven't picked much out of Nico Nico or utaite since I picked up my majico and Itou Kashitarou albums.</p>
 
-	<iframe width="650" height="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/199176127&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-	
-	<iframe width="650" height="366" src="https://www.youtube.com/embed/oduS3dZh-2U?rel=0" frameborder="0" allowfullscreen></iframe>
-	<p class="caption">Majico album XFD, a lot of good and original songs</p>
+      <iframe width="650" height="366" src="https://www.youtube.com/embed/vm1CjIfPRPg" frameborder="0" allowfullscreen></iframe>
+      <p class="caption">"Timeless" by Rameses B ft. Veela</p>
 
-	<p>Next is another recent song. This is a new MikitoP(!!) song made for Itou Kashitarou's upcoming album. I don't know. I can't help but love MikitoP songs. I'm not really a huge fan of Kashitarou, so I may try and look for a different cover of the song, but I'm content with this version for now.</p>
+      <iframe width="650" height="366" src="https://www.youtube.com/embed/AweaGo4WWFU" frameborder="0" allowfullscreen></iframe>
+      <p class="caption">"Won't You Stay" by Indivision and Livewire ft. Tasha Baxter</p>
 
-	<iframe width="650" height="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/199277072&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-	<p class="caption">"Bokuno Hosomichi" - MikitoP ft. Itou Kashitarou</p>
+      <iframe width="650" height="366" src="https://www.youtube.com/embed/hSPh7CXOdhc" frameborder="0" allowfullscreen></iframe>
+      <p class="caption">"City Never Sleeps" by Dirty Androids</p>
 
-	<iframe width="650" height="366" src="https://www.youtube.com/embed/LFfQYV8vVWU?rel=0" frameborder="0" allowfullscreen></iframe>
-	<p class="caption">Itou Kashitarou album XFD, a lot of MikitoP songs!</p>
+      <iframe width="650" height="488" src="https://www.youtube.com/embed/iM3Q5DJgci8" frameborder="0" allowfullscreen></iframe>
+      <p class="caption">"Shikaku Kakumei" by Soutaisei Riron</p>
 
-	<p>And last is an old song I randomly stumbled upon. The first version I heard of this song was by <a href="http://utaite.wikia.com/wiki/Natsushiro_Takaaki">Natsushiro Takaaki</a>, but haha I don't really like him that much either. Then I somehow stumbled a cover by <a href="http://utaite.wikia.com/wiki/Suya">Limit</a> that I fell in love with.</p>
-
-	<iframe width="650" height="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/199380982&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-	<p class="caption">"She" - buzzG ft. Limit(Suya)</p>
-	
-	<p>Other than that, it's just been a bit of osu! here and there. I haven't been playing too much since I've been working on the site, but biweekly sessions will get me back in the groove I'm sure. Here's a song I played like a million times to full clear... only to realize that my one of my not full cleared scores beat me... Sad day, but it's a great song nonetheless.</p>
-
-	<iframe width="650" height="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187173009&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-	<p class="caption">"Dream Walker" - Taishi ft. Rita</p>
-
-      <p>That's it! See you guys!</p>
+      <iframe width="650" height="488" src="https://www.youtube.com/embed/irpUPuNMXIk" frameborder="0" allowfullscreen></iframe>
+      <p class="caption">"V is For" by Rchetype</p>
       </div>
     </div>
 

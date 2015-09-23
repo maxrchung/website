@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Left to Die - Max R. Chung</title>
+    <title>Blue Balls - Max R. Chung</title>
     <link rel="icon" href="../../resources/favicon.ico">
     <link rel="shortcut icon" href="../../resources/favicon.ico">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
@@ -23,20 +23,20 @@
     <hr>
     
     <div class="mid">
-      <h2><em>Left to Die</em></h2>
-      <p>Last edited 23 Jan. 2015</p>
+      <h2><em>Blue Balls</em></h2>
+      <p>Last edited 2 May. 2015</p>
     </div>
 
     <img class="noBorder" src="banner.png" />
 
     <div class="mid">
       <h2>Info</h2>
-      <p>Left to Die is a platformer inspired by traditional Mario and by some of its quirky spin-offs, namely <a href="http://en.wikipedia.org/wiki/Shobon_Action">Syobon Action</a> (AKA Cat Mario), <a href="http://en.wikipedia.org/wiki/I_Wanna_Be_the_Guy">I Wanna Be the Guy</a>, and <a href="http://en.wikipedia.org/wiki/VVVVVV">VVVVVV</a>. It was made as part of <a href="http://vgdc-uci.com/">VGDC UCI</a>'s 2015 winter quarter weekend game jam. The theme was 'Choose a Side', and we decided to put our own spin on the platformer genre, where facing left inverses all the blocks the character interacts with.</p>
+      <p>Blue Balls is a pong-inspired game that was made for a class project, hence the 2013. After a long time's passed, I still think this is one of my most favorite and fun games I've made, so now I'm in the process of revamping it and making it better.</p>
 
       <ul>
-	<li>Made by: Max Chung, Kinsey Lynaugh, Hector Martinez, Andrew Chau</li>
-	<li>Download: <a href="LeftToDie.zip" download>LeftToDie.zip</a> (7.1 MB)</li>
-	<li>Repository: <a href="https://github.com/shrackner/lefttodie">lefttodie</a></li>
+	<li>Made by: Max Chung</li>
+	<li>Download: <a href="BlueBalls.zip" download>BlueBalls.zip</a> (4.4 MB)</li>
+	<li>Repository: <a href="https://github.com/shrackner/blueballs">blueballs</a></li>
       </ul>
     </div>
 
